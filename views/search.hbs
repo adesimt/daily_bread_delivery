@@ -1,0 +1,23 @@
+
+
+<ul>
+    <!--Dropdown Menu-->
+    <label for="cars">Choose a car:</label>
+
+    <select name="restaurants" id="restaurants">
+        <option value="no value"> Select Restaurant</option>
+        {{#each restaurantList}}
+            
+            <option value="{{restaurant}}">{{restaurant}}</option>
+        {{/each}}
+    </select>
+    {{#each restaurantList}}
+    <li>Restaurant Name:{{ restaurant}}</li>
+    <li>Restaurant City:{{city}}</li>
+    {{/each}}
+</ul>
+
+<script>
+
+
+</script>
