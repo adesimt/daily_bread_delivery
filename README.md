@@ -1,6 +1,10 @@
 # Application Name
 Daily Bread Delivery
 
+## Project Details
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 ## Team Members:
 * Simeon Adewale
 * Jacob Crain
