@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="./account.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="form-container">
+        <div id="create-form-container">
+            <form action="/create" method="POST" id="create-form">
+                <h1 id="form-title">Create an account</h1>
+                <p id="login-intro">Please fill in the information below:</p>
+                <input type="text" name="firstName" id="firstname" placeholder="Firstname">
+                <input type="text" name="lastName" id="lastname" placeholder="Lastname">
+                <input type="text" name="email" id="email" placeholder="Email">
+                <input type="text" name="password" id="password" placeholder="Password">
+                <button class="create-btn">Create Account</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

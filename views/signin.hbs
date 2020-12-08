@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="./account.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="form-container">
+        <div id="login-form-container">
+            <form id="login">
+                <h1 id="form-title">Sign in</h1>
+                <p id="login-intro">Please enter your email and password:</p>
+                <input type="text" name="email" id="email" placeholder="Email">
+                <input type="text" name="password" id="password" placeholder="Password">
+                <p id="forget-password">Forgot Password?</p>
+                <button class="login-btn">login</button>
+                
+            </form>
+            <div class="no-account">
+                <p id="question">Don't have an account?</p>
+            </div>
+           <a href="/signup" style="text-decoration: none;"><div id="create">Create An Account</div></a> 
+        </div>
+    </div>
+
+    <script src="./signin.js"></script>
+</body>
+</html>

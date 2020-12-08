@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EEF7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-container{
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    background: #faf9f9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+}
+
+#login-form-container{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+}
+#create-form-container{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+}
+
+#form-title{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090D10;
+    line-height: 2em;
+}
+
+#login-intro{
+    font-size: 1em;
+    color: #090D10;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+input[type = "text"]{
+    display: block;
+    width: 22vw;
+    height: 5vh;
+    border: 0.8px solid #090D10;
+    margin: 1em 0.6em 0.2em 0.9em;
+    background: transparent;
+    padding: 10px;
+    color: #090D10;
+}
+input[type = "text"]::placeholder{
+    color: rgba(9, 13, 16, 60%);
+}
+
+input[type = "text"]:focus{
+    outline: 0.2px solid rgba(248, 250, 252, 100%);
+}
+
+#forget-password{
+    font-size: 0.8em;
+    color: #090D10;
+    float: right;
+    padding-right: 10px;
+    line-height: 2em;
+}
+
+.login-btn, .create-btn{
+    display: block;
+    width: 22vw;
+    height: 5vh;
+    font-size: 1em;
+    color: #F8FAFC;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3em 0.6em 0.2em 0.9em;
+    padding: 8px;
+    background: #fd3030;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+.login-btn:hover, .create-btn:hover{
+    opacity: 0.8;
+}
+.no-account{
+    margin: 1em 0 0 3.2em;
+}
+
+.no-account p{
+    font-size: 0.8em;
+    line-height: 2em;
+    color: #090D10;
+    text-align: center;
+    margin-left: 5px;
+}
+#create{
+    display: block;
+    width: 22vw;
+    height: 5vh;
+    color: #F8FAFC;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em 0.6em 0.2em 0.9em;
+    padding: 8px;
+    background: #090D10;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
