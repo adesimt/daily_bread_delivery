@@ -1207,7 +1207,7 @@
             },
             {
                 "Restaurant_PK": "14",
-                "Restaurant": "Chick N Beer",
+                "restaurant": "Chick N Beer",
                 "City": "Oklahoma",
                 "State": "Oklahoma City",
                 "Address": "715 NW 23rd St.",
@@ -1319,7 +1319,7 @@
                 ]
             },
             {
-                "Restaurant_PK": "15",
+                "RESTAURANT_PK": "15",
                 "Restaurant": "Pounds",
                 "City": "Fargo",
                 "State": "North Dakota",
