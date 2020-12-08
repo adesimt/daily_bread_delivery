@@ -2,8 +2,7 @@
 Daily Bread Delivery
 
 ## Project Details
-https://docs.google.com/document/d/1ObSUaEFkBvk-VR-tb_t3VJrClOt-wJq8Q3kBEOhKe5s/edit# - automatic!
-[Project Details](http://github.com)
+[Project Details](https://docs.google.com/document/d/1ObSUaEFkBvk-VR-tb_t3VJrClOt-wJq8Q3kBEOhKe5s/edit#)
 
 ## Team Members:
 * Simeon Adewale
