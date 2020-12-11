@@ -8,152 +8,176 @@
                 "state": "MN",
                 "address": "492 Hamline Ave. S",
                 "zip": "55116",
-                "phone_number": "65-698-4347",
+                "phone_number": "651-698-4347",
                 "ethin_type": "American-Irish",
                 "TB_Menu": [
                     {
                         "Menu_ID": "1",
-                        "Food_Item": "Nookie Supreme",
-                        "Description": "Double decker cheeseburger with lettuce, special sauce and 3 layers of fresh baked bun - mythical proportions",
-                        "Restaurant_FK": "1"
+                        "food_item": "Nookie Supreme",
+                        "description": "Double decker cheeseburger with lettuce, special sauce and 3 layers of fresh baked bun - mythical proportions",
+                        "Restaurant_FK": "1",
+                        "price": "16.95"
                     },
                     {
                         "Menu_ID": "2",
-                        "Food_Item": "Mickey's Original",
-                        "Description": "Cheeseburger $9.95 | Bacon Cheeseburger $11.25California-Style with lettuce, tomato, mayo, and cheese $11.25Mushroom Swiss $11.95",
-                        "Restaurant_FK": "1"
+                        "food_item": "Mickey's Original",
+                        "description": "Cheeseburger $9.95 | Bacon Cheeseburger $11.25California-Style with lettuce, tomato, mayo, and cheese $11.25Mushroom Swiss $11.95",
+                        "Restaurant_FK": "1",
+                        "price": "9.25"
                     },
                     {
                         "Menu_ID": "3",
-                        "Food_Item": "Patty Melt",
-                        "Description": "Fried onions, Swiss and American cheeses, and tomato on toasted rye",
-                        "Restaurant_FK": "1"
+                        "food_item": "Patty Melt",
+                        "description": "Fried onions, Swiss and American cheeses, and tomato on toasted rye",
+                        "Restaurant_FK": "1",
+                        "price": "11.95"
                     },
                     {
                         "Menu_ID": "4",
-                        "Food_Item": "Chuck Mitch Ham Hamburger",
-                        "Description": "Shaved grilled ham, bourbon sauce and Swiss on top of a pretzel bun",
-                        "Restaurant_FK": "1"
+                        "food_item": "Chuck Mitch Ham Hamburger",
+                        "description": "Shaved grilled ham, bourbon sauce and Swiss on top of a pretzel bun",
+                        "Restaurant_FK": "1",
+                        "price": "12.95"
                     },
                     {
                         "Menu_ID": "5",
-                        "Food_Item": "The Triple B",
-                        "Description": "Bourbon Bacon Burger - Bacon with smoked cheddar and bourbon sauce",
-                        "Restaurant_FK": "1"
+                        "food_item": "The Triple B",
+                        "description": "Bourbon Bacon Burger - Bacon with smoked cheddar and bourbon sauce",
+                        "Restaurant_FK": "1",
+                        "price": "11.95"
                     },
                     {
                         "Menu_ID": "6",
-                        "Food_Item": "Purple & Gold Burger",
-                        "Description": "Worcestershire sauce enhanced burger with special seasoning, purple onions and smoked cheddar",
-                        "Restaurant_FK": "1"
+                        "food_item": "Purple & Gold Burger",
+                        "description": "Worcestershire sauce enhanced burger with special seasoning, purple onions and smoked cheddar",
+                        "Restaurant_FK": "1",
+                        "price": "10.95"
                     },
                     {
                         "Menu_ID": "7",
-                        "Food_Item": "Casburger",
-                        "Description": "Bacon cheeseburger with green peppers and a side of bbq sauce",
-                        "Restaurant_FK": "1"
+                        "food_item": "Casburger",
+                        "description": "Bacon cheeseburger with green peppers and a side of bbq sauce",
+                        "Restaurant_FK": "1",
+                        "price": "11.95"
                     },
                     {
                         "Menu_ID": "8",
-                        "Food_Item": "Harris Buckin Bronco Burger",
-                        "Description": "Onion straws, bacon, smoked cheddar, and pulled pork",
-                        "Restaurant_FK": "1"
+                        "food_item": "Harris Buckin Bronco Burger",
+                        "description": "Onion straws, bacon, smoked cheddar, and pulled pork",
+                        "Restaurant_FK": "1",
+                        "price": "13.95"
                     },
                     {
                         "Menu_ID": "9",
-                        "Food_Item": "Pepperjack Hannahan",
-                        "Description": "Bacon, pepperjack cheese, spring mix, tomato, and gochujang mayo",
-                        "Restaurant_FK": "1"
+                        "food_item": "Pepperjack Hannahan",
+                        "description": "Bacon, pepperjack cheese, spring mix, tomato, and gochujang mayo",
+                        "Restaurant_FK": "1",
+                        "price": "13.95"
                     },
                     {
                         "Menu_ID": "10",
-                        "Food_Item": "Firehouse Burger",
-                        "Description": "Pepperjack cheese raw onion, bacon and hot mustard",
-                        "Restaurant_FK": "1"
+                        "food_item": "Firehouse Burger",
+                        "description": "Pepperjack cheese raw onion, bacon and hot mustard",
+                        "Restaurant_FK": "1",
+                        "price": "11.95"
                     },
                     {
                         "Menu_ID": "11",
-                        "Food_Item": "Matt Birk Burger",
-                        "Description": "Two patties with pepperjack cheese",
-                        "Restaurant_FK": "1"
+                        "food_item": "Matt Birk Burger",
+                        "description": "Two patties with pepperjack cheese",
+                        "Restaurant_FK": "1",
+                        "price": "15.95"
                     },
                     {
                         "Menu_ID": "12",
-                        "Food_Item": "Joe Mauer Hit 2000",
-                        "Description": "Two Hamburgers and one order of fries",
-                        "Restaurant_FK": "1"
+                        "food_item": "Joe Mauer Hit 2000",
+                        "description": "Two Hamburgers and one order of fries",
+                        "Restaurant_FK": "1",
+                        "price": "14.95"
                     },
                     {
                         "Menu_ID": "13",
-                        "Food_Item": "Rueben Burger",
-                        "Description": "Sauerkraut, Swiss cheese, 1000 Island and corned beef on rye",
-                        "Restaurant_FK": "1"
+                        "food_item": "Rueben Burger",
+                        "description": "Sauerkraut, Swiss cheese, 1000 Island and corned beef on rye",
+                        "Restaurant_FK": "1",
+                        "price": "12.95"
                     },
                     {
                         "Menu_ID": "14",
-                        "Food_Item": "Michael Floyd",
-                        "Description": "Topped with pastrami, cream cheese, pickle planks & mustard",
-                        "Restaurant_FK": "1"
+                        "food_item": "Michael Floyd",
+                        "description": "Topped with pastrami, cream cheese, pickle planks & mustard",
+                        "Restaurant_FK": "1",
+                        "price": "12.95"
                     },
                     {
                         "Menu_ID": "15",
-                        "Food_Item": "Lodge Burger",
-                        "Description": "Bacon, tomato, lettuce, smoked cheddar and chipotle mayo",
-                        "Restaurant_FK": "1"
+                        "food_item": "Lodge Burger",
+                        "description": "Bacon, tomato, lettuce, smoked cheddar and chipotle mayo",
+                        "Restaurant_FK": "1",
+                        "price": "13.95"
                     },
                     {
                         "Menu_ID": "16",
-                        "Food_Item": "Black & Bleu Burger",
-                        "Description": "Crumbled Bleu cheese melted over sauteed mushrooms, bacon & Cajun seasoning",
-                        "Restaurant_FK": "1"
+                        "food_item": "Black & Bleu Burger",
+                        "description": "Crumbled Bleu cheese melted over sauteed mushrooms, bacon & Cajun seasoning",
+                        "Restaurant_FK": "1",
+                        "price": "13.95"
                     },
                     {
                         "Menu_ID": "17",
-                        "Food_Item": "Juicy Nookie Burger",
-                        "Description": "Stuffed cheeseburger, served medium only",
-                        "Restaurant_FK": "1"
+                        "food_item": "Juicy Nookie Burger",
+                        "description": "Stuffed cheeseburger, served medium only",
+                        "Restaurant_FK": "1",
+                        "price": "11.95"
                     },
                     {
                         "Menu_ID": "18",
-                        "Food_Item": "Paul Molitor",
-                        "Description": "Juicy Nookie stuffed with Pepperjack Cheese",
-                        "Restaurant_FK": "1"
+                        "food_item": "Paul Molitor",
+                        "description": "Juicy Nookie stuffed with Pepperjack Cheese",
+                        "Restaurant_FK": "1",
+                        "price": "11.95"
                     },
                     {
                         "Menu_ID": "19",
-                        "Food_Item": "The Spanish Fly",
-                        "Description": "Chorizo burger, 50/50 blend of beef & Spanish-spiced pork filled with queso blanco",
-                        "Restaurant_FK": "1"
+                        "food_item": "The Spanish Fly",
+                        "description": "Chorizo burger, 50/50 blend of beef & Spanish-spiced pork filled with queso blanco",
+                        "Restaurant_FK": "1",
+                        "price": "12.25"
                     },
                     {
                         "Menu_ID": "20",
-                        "Food_Item": "Stuffed Philly 2.0",
-                        "Description": "Cheeseburger stuffed and topped with green pepper, onion, mushroom and swiss cheese, topped with roast beef",
-                        "Restaurant_FK": "1"
+                        "food_item": "Stuffed Philly 2.0",
+                        "description": "Cheeseburger stuffed and topped with green pepper, onion, mushroom and swiss cheese, topped with roast beef",
+                        "Restaurant_FK": "1",
+                        "price": "13.95"
                     },
                     {
                         "Menu_ID": "21",
-                        "Food_Item": "Guy's Big Bite",
-                        "Description": "Pepperjack stuffed burger topped with roast beef, shredded cheddar and bacon",
-                        "Restaurant_FK": "1"
+                        "food_item": "Guy's Big Bite",
+                        "description": "Pepperjack stuffed burger topped with roast beef, shredded cheddar and bacon",
+                        "Restaurant_FK": "1",
+                        "price": "14.25"
                     },
                     {
                         "Menu_ID": "22",
-                        "Food_Item": "Pot o' Gold Wings",
-                        "Description": "Voted “Best Wings” by Mpls St. Paul Magazine! Tossed in your choice of sauce or dry rub.  (8) $10.25 | (12) $12.95 | (20) $19.25",
-                        "Restaurant_FK": "1"
+                        "food_item": "Pot o' Gold Wings",
+                        "description": "Voted “Best Wings” by Mpls St. Paul Magazine! Tossed in your choice of sauce or dry rub.  (8) $10.25 | (12) $12.95 | (20) $19.25",
+                        "Restaurant_FK": "1",
+                        "price": "12.95"
                     },
                     {
                         "Menu_ID": "23",
-                        "Food_Item": "\"Zingers\" Boneless Breaded Wings",
-                        "Description": "No bones about it! Big flavors tossed in your choice of sauce or dry rub. (8) $10.25   |  (14) $14.95(20) $19.95",
-                        "Restaurant_FK": "1"
+                        "food_item": "\"Zingers\" Boneless Breaded Wings",
+                        "description": "No bones about it! Big flavors tossed in your choice of sauce or dry rub. (8) $10.25   |  (14) $14.95(20) $19.95",
+                        "Restaurant_FK": "1",
+                        "price": "14.95"
                     },
                     {
                         "Menu_ID": "24",
-                        "Food_Item": "Naked Skewers",
-                        "Description": "Grilled chicken skewers. Toss ‘em in your favorite wing sauce. 4 skewers $9.95 | 8 skewers $16.25",
-                        "Restaurant_FK": "1"
+                        "food_item": "Naked Skewers",
+                        "description": "Grilled chicken skewers. Toss ‘em in your favorite wing sauce. 4 skewers $9.95 | 8 skewers $16.25",
+                        "Restaurant_FK": "1",
+                        "price": "16.25"
                     }
                 ]
             },
@@ -169,79 +193,93 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "25",
-                        "Food_Item": "Caesar Salad",
-                        "Restaurant_FK": "2"
+                        "food_item": "Caesar Salad",
+                        "Restaurant_FK": "2",
+                        "price": "10"
                     },
                     {
                         "Menu_ID": "26",
-                        "Food_Item": "House Salad",
-                        "Restaurant_FK": "2"
+                        "food_item": "House Salad",
+                        "Restaurant_FK": "2",
+                        "price": "10"
                     },
                     {
                         "Menu_ID": "27",
-                        "Food_Item": "Steak Salad",
-                        "Description": "8 oz sirloin, field greens and arugula mix, red onions, tomatoes, kalamata olives, blue cheese crumbles and croutons",
-                        "Restaurant_FK": "2"
+                        "food_item": "Steak Salad",
+                        "description": "8 oz sirloin, field greens and arugula mix, red onions, tomatoes, kalamata olives, blue cheese crumbles and croutons",
+                        "Restaurant_FK": "2",
+                        "price": "19"
                     },
                     {
                         "Menu_ID": "28",
-                        "Food_Item": "Teriyaki Grilled Chicken",
-                        "Description": "Field greens and arugula mix with tomato, raisins, apples, candied walnuts, grilled pineapple rings, topped with teriyaki glazed chicken",
-                        "Restaurant_FK": "2"
+                        "food_item": "Teriyaki Grilled Chicken",
+                        "description": "Field greens and arugula mix with tomato, raisins, apples, candied walnuts, grilled pineapple rings, topped with teriyaki glazed chicken",
+                        "Restaurant_FK": "2",
+                        "price": "15"
                     },
                     {
                         "Menu_ID": "29",
-                        "Food_Item": "Salmon Salad",
-                        "Description": "Field greens and arugula mix topped with grilled salmon, red onion, tomatoes, kalamata olives, bleu cheese crumbles and croutons",
-                        "Restaurant_FK": "2"
+                        "food_item": "Salmon Salad",
+                        "description": "Field greens and arugula mix topped with grilled salmon, red onion, tomatoes, kalamata olives, bleu cheese crumbles and croutons",
+                        "Restaurant_FK": "2",
+                        "price": "17"
                     },
                     {
                         "Menu_ID": "30",
-                        "Food_Item": "French Onion Soup",
-                        "Description": "Our signature soup topped with a mound of onion straws",
-                        "Restaurant_FK": "2"
+                        "food_item": "French Onion Soup",
+                        "description": "Our signature soup topped with a mound of onion straws",
+                        "Restaurant_FK": "2",
+                        "price": "6.2"
                     },
                     {
                         "Menu_ID": "31",
-                        "Food_Item": "Soup of the Moment",
-                        "Restaurant_FK": "2"
+                        "food_item": "Soup of the Moment",
+                        "Restaurant_FK": "2",
+                        "price": "5"
                     },
                     {
                         "Menu_ID": "32",
-                        "Food_Item": "Black n Bleu Burger",
-                        "Description": "Topped with bleu cheese and bacon",
-                        "Restaurant_FK": "2"
+                        "food_item": "Black n Bleu Burger",
+                        "description": "Topped with bleu cheese and bacon",
+                        "Restaurant_FK": "2",
+                        "price": "11.5"
                     },
                     {
                         "Menu_ID": "33",
-                        "Food_Item": "Aloha Burger",
-                        "Description": "Topped with a pineapple, pork belly and thousand island dressing",
-                        "Restaurant_FK": "2"
+                        "food_item": "Aloha Burger",
+                        "description": "Topped with a pineapple, pork belly and thousand island dressing",
+                        "Restaurant_FK": "2",
+                        "price": "11.25"
                     },
                     {
                         "Menu_ID": "34",
-                        "Food_Item": "Lamb Burger",
-                        "Description": "8 oz lamb burger topped with bacon jam, gouda cheese and onion straws with lettuce, onion and tomato",
-                        "Restaurant_FK": "2"
+                        "food_item": "Lamb Burger",
+                        "description": "8 oz lamb burger topped with bacon jam, gouda cheese and onion straws with lettuce, onion and tomato",
+                        "Restaurant_FK": "2",
+                        "price": "16"
                     },
                     {
                         "Menu_ID": "35",
-                        "Food_Item": "Pork Chop",
-                        "Description": "Large 12 oz pork chop, seasoned and grilled, served with mashed potatoes and vegetables",
-                        "Restaurant_FK": "2"
+                        "food_item": "Pork Chop",
+                        "description": "Large 12 oz pork chop, seasoned and grilled, served with mashed potatoes and vegetables",
+                        "Restaurant_FK": "2",
+                        "price": "20"
                     },
                     {
                         "Menu_ID": "36",
-                        "Food_Item": "Fish 'N Chips",
-                        "Description": "Beer-battered haddock with french fries",
-                        "Restaurant_FK": "2"
+                        "food_item": "Fish 'N Chips",
+                        "description": "Beer-battered haddock with french fries",
+                        "Restaurant_FK": "2",
+                        "price": "18"
                     },
                     {
                         "Menu_ID": "37",
-                        "Food_Item": "Shrimp 'N Fish Chips Combo",
-                        "Description": "Combination of Seasoned beer-battered haddock and shrimp served with cocktail sauce, tartar sauce and French fries",
-                        "Restaurant_FK": "2"
-                    }]
+                        "food_item": "Shrimp 'N Fish Chips Combo",
+                        "description": "Combination of Seasoned beer-battered haddock and shrimp served with cocktail sauce, tartar sauce and French fries",
+                        "Restaurant_FK": "2",
+                        "price": "18"
+                    }
+                ]
             },
             {
                 "RESTAURANT_PK": "3",
@@ -254,82 +292,88 @@
                 "ethin_type": "Italian",
                 "TB_Menu": [
                     {
-                        "Menu_ID": "37",
-                        "Food_Item": "Shrimp 'N Fish Chips Combo",
-                        "Description": "Combination of Seasoned beer-battered haddock and shrimp served with cocktail sauce, tartar sauce and French fries",
-                        "Restaurant_FK": "2"
-                    },
-                    {
                         "Menu_ID": "38",
-                        "Food_Item": "Short Rib Ravioli",
-                        "Description": "Portabella Mushrooms, Watercress, Red Wine Reduction",
-                        "Restaurant_FK": "3"
+                        "food_item": "Short Rib Ravioli",
+                        "description": "Portabella Mushrooms, Watercress, Red Wine Reduction",
+                        "Restaurant_FK": "3",
+                        "price": "13"
                     },
                     {
                         "Menu_ID": "39",
-                        "Food_Item": "Beet Salad",
-                        "Description": "Red & Golden beets, Goat Cheese, Pistachios, Apple Cider Vinaigrette",
-                        "Restaurant_FK": "3"
+                        "food_item": "Beet Salad",
+                        "description": "Red & Golden beets, Goat Cheese, Pistachios, Apple Cider Vinaigrette",
+                        "Restaurant_FK": "3",
+                        "price": "8"
                     },
                     {
                         "Menu_ID": "40",
-                        "Food_Item": "Arugula and Pear Salad",
-                        "Description": "Pine Nutes, Feta, Truffle Honey, Lemon Basil Vinaigrette",
-                        "Restaurant_FK": "3"
+                        "food_item": "Arugula and Pear Salad",
+                        "description": "Pine Nutes, Feta, Truffle Honey, Lemon Basil Vinaigrette",
+                        "Restaurant_FK": "3",
+                        "price": "8"
                     },
                     {
                         "Menu_ID": "41",
-                        "Food_Item": "Strip Steak",
-                        "Description": "Certified Angus Beef, Prime, Fingeling Potatoes, Broccolini",
-                        "Restaurant_FK": "3"
+                        "food_item": "Strip Steak",
+                        "description": "Certified Angus Beef, Prime, Fingeling Potatoes, Broccolini",
+                        "Restaurant_FK": "3",
+                        "price": "32"
                     },
                     {
                         "Menu_ID": "42",
-                        "Food_Item": "Strozzapreti",
-                        "Description": "Heirloom Tomato, Basil, Porcini Mushrooms, Ricotta",
-                        "Restaurant_FK": "3"
+                        "food_item": "Strozzapreti",
+                        "description": "Heirloom Tomato, Basil, Porcini Mushrooms, Ricotta",
+                        "Restaurant_FK": "3",
+                        "price": "16"
                     },
                     {
                         "Menu_ID": "43",
-                        "Food_Item": "Scallops",
-                        "Description": "Blistered Tomato and Asparagus Risotto",
-                        "Restaurant_FK": "3"
+                        "food_item": "Scallops",
+                        "description": "Blistered Tomato and Asparagus Risotto",
+                        "Restaurant_FK": "3",
+                        "price": "29"
                     },
                     {
                         "Menu_ID": "44",
-                        "Food_Item": "Pasta M",
-                        "Description": "Meatball, Pomodoro, Cavatelle",
-                        "Restaurant_FK": "3"
+                        "food_item": "Pasta M",
+                        "description": "Meatball, Pomodoro, Cavatelle",
+                        "Restaurant_FK": "3",
+                        "price": "17"
                     },
                     {
                         "Menu_ID": "45",
-                        "Food_Item": "Carbonara",
-                        "Description": "Chicken, Peas, Pancetta, Parmesan, Farm Egg, Spaghetti",
-                        "Restaurant_FK": "3"
+                        "food_item": "Carbonara",
+                        "description": "Chicken, Peas, Pancetta, Parmesan, Farm Egg, Spaghetti",
+                        "Restaurant_FK": "3",
+                        "price": "16"
                     },
                     {
                         "Menu_ID": "46",
-                        "Food_Item": "Gregario's Pizza",
-                        "Description": "Ohio Made Sausage, Pinot Noir Onions, Crimini Mushrooms",
-                        "Restaurant_FK": "3"
+                        "food_item": "Gregario's Pizza",
+                        "description": "Ohio Made Sausage, Pinot Noir Onions, Crimini Mushrooms",
+                        "Restaurant_FK": "3",
+                        "price": "14"
                     },
                     {
                         "Menu_ID": "47",
-                        "Food_Item": "Farmhouse Pizza",
-                        "Description": "Spinach, Proaciutto, Pinot Noir Onions, Artichoke Hearts, Farm Egg",
-                        "Restaurant_FK": "3"
+                        "food_item": "Farmhouse Pizza",
+                        "description": "Spinach, Proaciutto, Pinot Noir Onions, Artichoke Hearts, Farm Egg",
+                        "Restaurant_FK": "3",
+                        "price": "14"
                     },
                     {
                         "Menu_ID": "48",
-                        "Food_Item": "Breakfast Pizza",
-                        "Description": "Ohio Made Sausage, Spinach, Mozzarella, Applewood Smoked Bacon, Farm Egg",
-                        "Restaurant_FK": "3"
+                        "food_item": "Breakfast Pizza",
+                        "description": "Ohio Made Sausage, Spinach, Mozzarella, Applewood Smoked Bacon, Farm Egg",
+                        "Restaurant_FK": "3",
+                        "price": "12"
                     },
                     {
                         "Menu_ID": "49",
-                        "Food_Item": "Eggs in Purgatory",
-                        "Description": "Kalamata Olives, Alta Cucina Tomato, Ohio Made Sausage, Roaste Fennel, Farm Egg",
-                        "Restaurant_FK": "3"
+                        "food_item": "Eggs in Purgatory",
+                        "description": "Kalamata Olives, Alta Cucina Tomato, Ohio Made Sausage, Roaste Fennel, Farm Egg",
+                        "Restaurant_FK": "3",
+                        "price": "12"
                     }
                 ]
             },
@@ -345,58 +389,67 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "50",
-                        "Food_Item": "Turkey Melt",
-                        "Description": "Sliced over roasted turkey breast with tomato slices, bacon and cheddar cheese served on grilled parmesan sourdough bread",
-                        "Restaurant_FK": "4"
+                        "food_item": "Turkey Melt",
+                        "description": "Sliced over roasted turkey breast with tomato slices, bacon and cheddar cheese served on grilled parmesan sourdough bread",
+                        "Restaurant_FK": "4",
+                        "price": "14.95"
                     },
                     {
                         "Menu_ID": "51",
-                        "Food_Item": "Bacon Grilled Cheese",
-                        "Description": "Montana smoked bacon with cheddar, provolone and basil pesto, served on parmesan sourdough bread",
-                        "Restaurant_FK": "4"
+                        "food_item": "Bacon Grilled Cheese",
+                        "description": "Montana smoked bacon with cheddar, provolone and basil pesto, served on parmesan sourdough bread",
+                        "Restaurant_FK": "4",
+                        "price": "13.95"
                     },
                     {
                         "Menu_ID": "52",
-                        "Food_Item": "Dante's Turkey Sandwich",
-                        "Description": "Thinly sliced turkey bread, lettuce, tomato, avocado, swiss cheese and cranberry mayonnaise served with your coice of grilled sourdough or wheat bread",
-                        "Restaurant_FK": "4"
+                        "food_item": "Dante's Turkey Sandwich",
+                        "description": "Thinly sliced turkey bread, lettuce, tomato, avocado, swiss cheese and cranberry mayonnaise served with your coice of grilled sourdough or wheat bread",
+                        "Restaurant_FK": "4",
+                        "price": "14.95"
                     },
                     {
                         "Menu_ID": "53",
-                        "Food_Item": "B.L.T.",
-                        "Description": "Montana hickory smoked bacon fresh lettuce and tomato with mayonnaise, served on grilled sourdough or wheat bread",
-                        "Restaurant_FK": "4"
+                        "food_item": "B.L.T.",
+                        "description": "Montana hickory smoked bacon fresh lettuce and tomato with mayonnaise, served on grilled sourdough or wheat bread",
+                        "Restaurant_FK": "4",
+                        "price": "13.95"
                     },
                     {
                         "Menu_ID": "54",
-                        "Food_Item": "Dante's Manicotti",
-                        "Description": "A tender pasta shell stuffed with your choice of chicken or a seafood combination of shrimp, crab and scallops, with ricotta cheese and fresh erbs in a basil cream sauce",
-                        "Restaurant_FK": "4"
+                        "food_item": "Dante's Manicotti",
+                        "description": "A tender pasta shell stuffed with your choice of chicken or a seafood combination of shrimp, crab and scallops, with ricotta cheese and fresh erbs in a basil cream sauce",
+                        "Restaurant_FK": "4",
+                        "price": "15.95"
                     },
                     {
                         "Menu_ID": "55",
-                        "Food_Item": "Pesto Chicken Alfredo",
-                        "Description": "Sliced grilled chicken breast auteed in our house made basil pesto Alfredo, tossed with penne pasta and topped with shredded parmesan",
-                        "Restaurant_FK": "4"
+                        "food_item": "Pesto Chicken Alfredo",
+                        "description": "Sliced grilled chicken breast auteed in our house made basil pesto Alfredo, tossed with penne pasta and topped with shredded parmesan",
+                        "Restaurant_FK": "4",
+                        "price": "14.95"
                     },
                     {
                         "Menu_ID": "56",
-                        "Food_Item": "Dante's Taco Salad",
-                        "Description": "Seasoned ground beef served on fresh lettuce with diced tomatoes, scallions, black olives, shredded cheddar jack cheese, sour cream, and guacamole in a fried corn tortilla bowl",
-                        "Restaurant_FK": "4"
+                        "food_item": "Dante's Taco Salad",
+                        "description": "Seasoned ground beef served on fresh lettuce with diced tomatoes, scallions, black olives, shredded cheddar jack cheese, sour cream, and guacamole in a fried corn tortilla bowl",
+                        "Restaurant_FK": "4",
+                        "price": "14.95"
                     },
                     {
                         "Menu_ID": "57",
-                        "Food_Item": "Dante's Cobb Salad",
-                        "Description": "Fressh lettuce, topped with diced chicken, bacon, tomato, avocado, gorgonzola cheese crumbles, cheddar jack cheese and a hardboiled egg. Served with a  garlic breadstick",
-                        "Restaurant_FK": "4"
+                        "food_item": "Dante's Cobb Salad",
+                        "description": "Fressh lettuce, topped with diced chicken, bacon, tomato, avocado, gorgonzola cheese crumbles, cheddar jack cheese and a hardboiled egg. Served with a  garlic breadstick",
+                        "Restaurant_FK": "4",
+                        "price": "14.95"
                     },
                     {
                         "Menu_ID": "58",
-                        "Food_Item": "Bayou shrimp Ling Whiskey",
-                        "Description": "Jumbo Shrimp sauteed with cajun spices, alfredo, four cheeses and a dash of aged Kentucky whiskey",
-                        "Restaurant_FK": "4"
-                    }        
+                        "food_item": "Bayou shrimp Ling Whiskey",
+                        "description": "Jumbo Shrimp sauteed with cajun spices, alfredo, four cheeses and a dash of aged Kentucky whiskey",
+                        "Restaurant_FK": "4",
+                        "price": "15.95"
+                    }
                 ]
             },
             {
@@ -411,39 +464,45 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "59",
-                        "Food_Item": "Azada",
-                        "Description": "Mexican rice and beans, carne asada grilled when ordered, lettuce, pico de gallo, guacamole and sour cream",
-                        "Restaurant_FK": "5"
+                        "food_item": "Azada",
+                        "description": "Mexican rice and beans, carne asada grilled when ordered, lettuce, pico de gallo, guacamole and sour cream",
+                        "Restaurant_FK": "5",
+                        "price": "9.99"
                     },
                     {
                         "Menu_ID": "60",
-                        "Food_Item": "Verde",
-                        "Description": "Mexican rice or cilantro lime rice, beans, shredded beef in green chile topped with blend of cheeses, fresh tomatoes, pico de gallo, gucamole and sour cream",
-                        "Restaurant_FK": "5"
+                        "food_item": "Verde",
+                        "description": "Mexican rice or cilantro lime rice, beans, shredded beef in green chile topped with blend of cheeses, fresh tomatoes, pico de gallo, gucamole and sour cream",
+                        "Restaurant_FK": "5",
+                        "price": "9.99"
                     },
                     {
                         "Menu_ID": "61",
-                        "Food_Item": "Rojo",
-                        "Description": "Mexican rice or cilantro lime, lettuce, beans, seasoned pork, in red chile topped with blended cheeses, fresh tomatoes, pico de gallo, guacamole and sour cream",
-                        "Restaurant_FK": "5"
+                        "food_item": "Rojo",
+                        "description": "Mexican rice or cilantro lime, lettuce, beans, seasoned pork, in red chile topped with blended cheeses, fresh tomatoes, pico de gallo, guacamole and sour cream",
+                        "Restaurant_FK": "5",
+                        "price": "9.99"
                     },
                     {
                         "Menu_ID": "62",
-                        "Food_Item": "Barbacoa",
-                        "Description": "Mexican rice and beans with braised beef, shredded lettuce, pico de gallo, guacamole and sour cream topped with green salsa",
-                        "Restaurant_FK": "5"
+                        "food_item": "Barbacoa",
+                        "description": "Mexican rice and beans with braised beef, shredded lettuce, pico de gallo, guacamole and sour cream topped with green salsa",
+                        "Restaurant_FK": "5",
+                        "price": "9.99"
                     },
                     {
                         "Menu_ID": "63",
-                        "Food_Item": "Carnitas",
-                        "Description": "Mexican rice and beans with braised pork, shredded lettuce, pico de gallo, guacamole and sour cream",
-                        "Restaurant_FK": "5"
+                        "food_item": "Carnitas",
+                        "description": "Mexican rice and beans with braised pork, shredded lettuce, pico de gallo, guacamole and sour cream",
+                        "Restaurant_FK": "5",
+                        "price": "9.99"
                     },
                     {
                         "Menu_ID": "64",
-                        "Food_Item": "Two Enchiladas filled",
-                        "Description": "with cheese and onions, Chile Relleno, rice and beans",
-                        "Restaurant_FK": "5"
+                        "food_item": "Two Enchiladas filled",
+                        "description": "with cheese and onions, Chile Relleno, rice and beans",
+                        "Restaurant_FK": "5",
+                        "price": "9.5"
                     }
                 ]
             },
@@ -459,39 +518,45 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "65",
-                        "Food_Item": "Seafood Bouillabaisse",
-                        "Description": "½ Lobster tail, shrimp, PEI mussels, calamari, filet of fish,\ntomato, fennel broth",
-                        "Restaurant_FK": "6"
+                        "food_item": "Seafood Bouillabaisse",
+                        "description": "½ Lobster tail, shrimp, PEI mussels, calamari, filet of fish,\ntomato, fennel broth",
+                        "Restaurant_FK": "6",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "66",
-                        "Food_Item": "6oz Filet Mignon",
-                        "Description": "Served over potato gnocchi, beech mushrooms, baby kale,\ncarrots. Demi Glaze",
-                        "Restaurant_FK": "6"
+                        "food_item": "6oz Filet Mignon",
+                        "description": "Served over potato gnocchi, beech mushrooms, baby kale,\ncarrots. Demi Glaze",
+                        "Restaurant_FK": "6",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "67",
-                        "Food_Item": "Surf & Turf Cobb",
-                        "Description": "Blackened shrimp, turkey, ham, spiced chicken, bacon,\negg, bleu cheese, grape tomatoes, sweet onion, rosemary\nbalsamic dressing",
-                        "Restaurant_FK": "6"
+                        "food_item": "Surf & Turf Cobb",
+                        "description": "Blackened shrimp, turkey, ham, spiced chicken, bacon,\negg, bleu cheese, grape tomatoes, sweet onion, rosemary\nbalsamic dressing",
+                        "Restaurant_FK": "6",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "68",
-                        "Food_Item": "Duval’s Seafood Sampler",
-                        "Description": "Lobster tail, shrimp, & U10 sea scallops grilled, over\nroasted potatoes, spinach, garlic, & onions, garlic herb oil,\nside of clarified butter",
-                        "Restaurant_FK": "6"
+                        "food_item": "Duval’s Seafood Sampler",
+                        "description": "Lobster tail, shrimp, & U10 sea scallops grilled, over\nroasted potatoes, spinach, garlic, & onions, garlic herb oil,\nside of clarified butter",
+                        "Restaurant_FK": "6",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "69",
-                        "Food_Item": "Ocean Scampi",
-                        "Description": "½ Lobster tail, shrimp, lemon, white wine, garlic, butter,\ngremolata, linguini",
-                        "Restaurant_FK": "6"
+                        "food_item": "Ocean Scampi",
+                        "description": "½ Lobster tail, shrimp, lemon, white wine, garlic, butter,\ngremolata, linguini",
+                        "Restaurant_FK": "6",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "70",
-                        "Food_Item": "Togarashi and Sesame Spice Tuna Mignon",
-                        "Description": "Scallions, bell peppers, cucumber, cabbage, peanuts,\nnoodles, peanut dressing",
-                        "Restaurant_FK": "6"
+                        "food_item": "Togarashi and Sesame Spice Tuna Mignon",
+                        "description": "Scallions, bell peppers, cucumber, cabbage, peanuts,\nnoodles, peanut dressing",
+                        "Restaurant_FK": "6",
+                        "price": "38"
                     }
                 ]
             },
@@ -507,39 +572,45 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "71",
-                        "Food_Item": "Cavatelli with Italian Sausage Bolognese",
-                        "Description": "Fennel, Cherry Tomatoes, White Wine, Shaved Grana Padano, Ricotta",
-                        "Restaurant_FK": "7"
+                        "food_item": "Cavatelli with Italian Sausage Bolognese",
+                        "description": "Fennel, Cherry Tomatoes, White Wine, Shaved Grana Padano, Ricotta",
+                        "Restaurant_FK": "7",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "72",
-                        "Food_Item": "Chicken Milanese",
-                        "Description": "Breaded and Topped with Shaved Parmesan, Arugula, Tomato and Red Onion Salad",
-                        "Restaurant_FK": "7"
+                        "food_item": "Chicken Milanese",
+                        "description": "Breaded and Topped with Shaved Parmesan, Arugula, Tomato and Red Onion Salad",
+                        "Restaurant_FK": "7",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "73",
-                        "Food_Item": "Branzino",
-                        "Description": "Semi Boneless, Kalamata Olives, Capers, Plum Tomatoes, Garlic, Extra Virgin Olive Oil",
-                        "Restaurant_FK": "7"
+                        "food_item": "Branzino",
+                        "description": "Semi Boneless, Kalamata Olives, Capers, Plum Tomatoes, Garlic, Extra Virgin Olive Oil",
+                        "Restaurant_FK": "7",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "74",
-                        "Food_Item": "Osso Buco",
-                        "Description": "Braised Veal Shank, Risotto, Roasted Vegetable Jus",
-                        "Restaurant_FK": "7"
+                        "food_item": "Osso Buco",
+                        "description": "Braised Veal Shank, Risotto, Roasted Vegetable Jus",
+                        "Restaurant_FK": "7",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "75",
-                        "Food_Item": "Boneless Short Ribs",
-                        "Description": "Bourbon Mashed Sweet Potatoes, Haricot Verts, Mushroom-Barolo Demi-Glace",
-                        "Restaurant_FK": "7"
+                        "food_item": "Boneless Short Ribs",
+                        "description": "Bourbon Mashed Sweet Potatoes, Haricot Verts, Mushroom-Barolo Demi-Glace",
+                        "Restaurant_FK": "7",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "76",
-                        "Food_Item": "Chicken Giambotta",
-                        "Description": "Onions, Vinegar Peppers, Mushrooms, Sausage, Artichoke Hearts, Potatoes",
-                        "Restaurant_FK": "7"
+                        "food_item": "Chicken Giambotta",
+                        "description": "Onions, Vinegar Peppers, Mushrooms, Sausage, Artichoke Hearts, Potatoes",
+                        "Restaurant_FK": "7",
+                        "price": "38"
                     }
                 ]
             },
@@ -555,39 +626,45 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "77",
-                        "Food_Item": "Chicken Enchiladito",
-                        "Description": "St Elmo’s Fire Chicken, black beans, Monterey Jack cheese, pico de gallo, jalapeños in a jalapeño-cheddar tortilla and grilled or fried. Served on a bed of Spanish rice then drizzled with queso and zesty red sauce.",
-                        "Restaurant_FK": "8"
+                        "food_item": "Chicken Enchiladito",
+                        "description": "St Elmo’s Fire Chicken, black beans, Monterey Jack cheese, pico de gallo, jalapeños in a jalapeño-cheddar tortilla and grilled or fried. Served on a bed of Spanish rice then drizzled with queso and zesty red sauce.",
+                        "Restaurant_FK": "8",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "78",
-                        "Food_Item": "Ground Beef Enchiladito",
-                        "Description": "Ground beef, black beans, Monterey Jack cheese, pico de gallo, jalapeños in a jalapeño-cheddar tortilla and grilled or fried. Served on a bed of Spanish rice then drizzled with queso and zesty red sauce.",
-                        "Restaurant_FK": "8"
+                        "food_item": "Ground Beef Enchiladito",
+                        "description": "Ground beef, black beans, Monterey Jack cheese, pico de gallo, jalapeños in a jalapeño-cheddar tortilla and grilled or fried. Served on a bed of Spanish rice then drizzled with queso and zesty red sauce.",
+                        "Restaurant_FK": "8",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "79",
-                        "Food_Item": "Pork Enchiladito",
-                        "Description": "Pork, black beans, Monterey Jack cheese, pico de gallo, jalapeños in a jalapeño-cheddar tortilla and grilled or fried. Served on a bed of Spanish rice then drizzled with queso and zesty red sauce.",
-                        "Restaurant_FK": "8"
+                        "food_item": "Pork Enchiladito",
+                        "description": "Pork, black beans, Monterey Jack cheese, pico de gallo, jalapeños in a jalapeño-cheddar tortilla and grilled or fried. Served on a bed of Spanish rice then drizzled with queso and zesty red sauce.",
+                        "Restaurant_FK": "8",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "80",
-                        "Food_Item": "The Vegan Big S'Mac",
-                        "Description": "Tater tots, black beans, pico de gallo, white onion, Vegan Cashew Cheese, lettuce, and pickles all wrapped in a tortilla and grilled to perfection.",
-                        "Restaurant_FK": "8"
+                        "food_item": "The Vegan Big S'Mac",
+                        "description": "Tater tots, black beans, pico de gallo, white onion, Vegan Cashew Cheese, lettuce, and pickles all wrapped in a tortilla and grilled to perfection.",
+                        "Restaurant_FK": "8",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "81",
-                        "Food_Item": "Beef Chili Cheese Burrito",
-                        "Description": "Papa Bear’s Vegetarian Chili, Ground Beef, Spanish rice, Monterey Jack cheese, red onion, green onion, jalapeño, sour cream, tomatillo salsa and guacamole all in a chipotle tortilla and grilled to perfection.",
-                        "Restaurant_FK": "8"
+                        "food_item": "Beef Chili Cheese Burrito",
+                        "description": "Papa Bear’s Vegetarian Chili, Ground Beef, Spanish rice, Monterey Jack cheese, red onion, green onion, jalapeño, sour cream, tomatillo salsa and guacamole all in a chipotle tortilla and grilled to perfection.",
+                        "Restaurant_FK": "8",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "82",
-                        "Food_Item": "Twin Peaks",
-                        "Description": "Two soft tacos with St Elmo’s fire chicken, Monterey Jack cheese, pineapple salsa, chipotle salsa and lettuce. Served with a side of rice & beans topped with salsa.",
-                        "Restaurant_FK": "8"
+                        "food_item": "Twin Peaks",
+                        "description": "Two soft tacos with St Elmo’s fire chicken, Monterey Jack cheese, pineapple salsa, chipotle salsa and lettuce. Served with a side of rice & beans topped with salsa.",
+                        "Restaurant_FK": "8",
+                        "price": "38"
                     }
                 ]
             },
@@ -603,39 +680,45 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "83",
-                        "Food_Item": "Linguine alle Vongole",
-                        "Description": "Artisanal linguine all chitarra with Venus clams, EVOO, garlic, parsley, Calabrian chili peppers (it is a little spicy), and Pachino cherry tomatoes",
-                        "Restaurant_FK": "9"
+                        "food_item": "Linguine alle Vongole",
+                        "description": "Artisanal linguine all chitarra with Venus clams, EVOO, garlic, parsley, Calabrian chili peppers (it is a little spicy), and Pachino cherry tomatoes",
+                        "Restaurant_FK": "9",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "84",
-                        "Food_Item": "Gambaletto D’Agnello",
-                        "Description": "Slow roasted lamb shank with shiitake & porcini polenta and 24-month aged Reggiano incredible",
-                        "Restaurant_FK": "9"
+                        "food_item": "Gambaletto D’Agnello",
+                        "description": "Slow roasted lamb shank with shiitake & porcini polenta and 24-month aged Reggiano incredible",
+                        "Restaurant_FK": "9",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "85",
-                        "Food_Item": "Fettuccine all\"Aragosta",
-                        "Description": "Home-crafted fettuccine pasta infused with San Diego caught live half spiny lobster with lobster tail, touch of mascarpone cheese, garlic, sage, juniper berries and chili flakes",
-                        "Restaurant_FK": "9"
+                        "food_item": "Fettuccine all\"Aragosta",
+                        "description": "Home-crafted fettuccine pasta infused with San Diego caught live half spiny lobster with lobster tail, touch of mascarpone cheese, garlic, sage, juniper berries and chili flakes",
+                        "Restaurant_FK": "9",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "86",
-                        "Food_Item": "Italian White Truffles",
-                        "Description": "Freshly foraged Italian White Truffles shaved by Chef Filippo Piccini on a bed of home-made fettuccine pasta with Parmigiano-Reggiano",
-                        "Restaurant_FK": "9"
+                        "food_item": "Italian White Truffles",
+                        "description": "Freshly foraged Italian White Truffles shaved by Chef Filippo Piccini on a bed of home-made fettuccine pasta with Parmigiano-Reggiano",
+                        "Restaurant_FK": "9",
+                        "price": "38"
                     },
                     {
                         "Menu_ID": "87",
-                        "Food_Item": "Lasagna Tradizionale al Pepe Nero",
-                        "Description": "House-made lasagna baked and crispy, slow braised Bolognese sauce, house-made bechamel, and a Grana Padano fondue",
-                        "Restaurant_FK": "9"
+                        "food_item": "Lasagna Tradizionale al Pepe Nero",
+                        "description": "House-made lasagna baked and crispy, slow braised Bolognese sauce, house-made bechamel, and a Grana Padano fondue",
+                        "Restaurant_FK": "9",
+                        "price": "24"
                     },
                     {
                         "Menu_ID": "88",
-                        "Food_Item": "Pappardelle all’Agnello Ragù",
-                        "Description": "Spring lamb white ragù, house-made pappardelle pasta infused with saffron, bay leaves, juniper berries, and Pecorino aged",
-                        "Restaurant_FK": "9"
+                        "food_item": "Pappardelle all’Agnello Ragù",
+                        "description": "Spring lamb white ragù, house-made pappardelle pasta infused with saffron, bay leaves, juniper berries, and Pecorino aged",
+                        "Restaurant_FK": "9",
+                        "price": "26"
                     }
                 ]
             },
@@ -651,47 +734,53 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "89",
-                        "Food_Item": "Twice Cooked Pork",
-                        "Description": "B.B.Q. pork sautéed with vegetables in a special mandarin sauce",
-                        "Restaurant_FK": "10"
+                        "food_item": "Twice Cooked Pork",
+                        "description": "B.B.Q. pork sautéed with vegetables in a special mandarin sauce",
+                        "Restaurant_FK": "10",
+                        "price": "9.25"
                     },
                     {
                         "Menu_ID": "90",
-                        "Food_Item": "Gum Wah Special Orange Chicken",
-                        "Description": "Slightly battered sliced chicken in a special spicy orange sauce",
-                        "Restaurant_FK": "10"
+                        "food_item": "Gum Wah Special Orange Chicken",
+                        "description": "Slightly battered sliced chicken in a special spicy orange sauce",
+                        "Restaurant_FK": "10",
+                        "price": "9.75"
                     },
                     {
                         "Menu_ID": "91",
-                        "Food_Item": "General Tso’s Chicken",
-                        "Description": "Battered chunks of chicken in a mild spicy, sweet & sour sauce",
-                        "Restaurant_FK": "10"
+                        "food_item": "General Tso’s Chicken",
+                        "description": "Battered chunks of chicken in a mild spicy, sweet & sour sauce",
+                        "Restaurant_FK": "10",
+                        "price": "9.75"
                     },
                     {
                         "Menu_ID": "92",
-                        "Food_Item": "Singapore Noodles",
-                        "Description": "Roast pork, shrimp & some vegetables, stir fry with Mei Fun (rice noodles), seasoned with a curry & a hot spice",
-                        "Restaurant_FK": "10"
+                        "food_item": "Singapore Noodles",
+                        "description": "Roast pork, shrimp & some vegetables, stir fry with Mei Fun (rice noodles), seasoned with a curry & a hot spice",
+                        "Restaurant_FK": "10",
+                        "price": "9.5"
                     },
                     {
                         "Menu_ID": "93",
-                        "Food_Item": "Mongolian Chicken",
-                        "Description": "Chicken sautéed with vegetables & topped with fried rice noodles",
-                        "Restaurant_FK": "10"
+                        "food_item": "Mongolian Chicken",
+                        "description": "Chicken sautéed with vegetables & topped with fried rice noodles",
+                        "Restaurant_FK": "10",
+                        "price": "9.5"
                     },
                     {
                         "Menu_ID": "94",
-                        "Food_Item": "Moo Shu Chicken",
-                        "Description": "Sliced chicken sautéed with  cabbage, onions, bamboo shoots, carrots & wood ears, served with pancakes",
-                        "Restaurant_FK": "10"
+                        "food_item": "Moo Shu Chicken",
+                        "description": "Sliced chicken sautéed with  cabbage, onions, bamboo shoots, carrots & wood ears, served with pancakes",
+                        "Restaurant_FK": "10",
+                        "price": "9.75"
                     }
                 ]
             },
             {
                 "RESTAURANT_PK": "11",
                 "restaurant": "Masu",
-                "city": "NE Minneapolis",
-                "state": "Minnesota",
+                "city": "Minnesota",
+                "state": "NE Minneapolis",
                 "address": "330 East Hennepin Ave",
                 "zip": "55414",
                 "phone_number": "612-332-6278",
@@ -699,712 +788,1242 @@
                 "TB_Menu": [
                     {
                         "Menu_ID": "95",
-                        "Food_Item": "Seaweed Salad",
-                        "Description": "Gobo, Kaiware and Sesame Dressing",
-                        "Restaurant_FK": "11"
+                        "food_item": "Seaweed Salad",
+                        "description": "Gobo, Kaiware and Sesame Dressing",
+                        "Restaurant_FK": "11",
+                        "price": "7.5"
                     },
                     {
                         "Menu_ID": "96",
-                        "Food_Item": "Cucumber Salad",
-                        "Description": "Gobo, Kaiware and Sesame Dressing",
-                        "Restaurant_FK": "11"
+                        "food_item": "Cucumber Salad",
+                        "description": "Gobo, Kaiware and Sesame Dressing",
+                        "Restaurant_FK": "11",
+                        "price": "8.5"
                     },
                     {
                         "Menu_ID": "97",
-                        "Food_Item": "Steamed Edamame",
-                        "Description": "Smoked Sea Salt",
-                        "Restaurant_FK": "11"
+                        "food_item": "Steamed Edamame",
+                        "description": "Smoked Sea Salt",
+                        "Restaurant_FK": "11",
+                        "price": "6"
                     },
                     {
                         "Menu_ID": "98",
-                        "Food_Item": "Miso Soup",
-                        "Description": "Tofu, Scallions and Wakame",
-                        "Restaurant_FK": "11"
+                        "food_item": "Miso Soup",
+                        "description": "Tofu, Scallions and Wakame",
+                        "Restaurant_FK": "11",
+                        "price": "4"
                     },
                     {
                         "Menu_ID": "99",
-                        "Food_Item": "Duck Gyoza",
-                        "Description": "Scallions and Plum Soy Dipping Sauce",
-                        "Restaurant_FK": "11"
+                        "food_item": "Duck Gyoza",
+                        "description": "Scallions and Plum Soy Dipping Sauce",
+                        "Restaurant_FK": "11",
+                        "price": "9.5"
                     },
                     {
                         "Menu_ID": "100",
-                        "Food_Item": "Fried Spring Rolls",
-                        "Description": "Vegetable or Shrimp: Shiitake, Cabbage and Garlic Soy Sauce",
-                        "Restaurant_FK": "11"
+                        "food_item": "Fried Spring Rolls",
+                        "description": "Vegetable or Shrimp: Shiitake, Cabbage and Garlic Soy Sauce",
+                        "Restaurant_FK": "11",
+                        "price": "7"
                     },
                     {
                         "Menu_ID": "101",
-                        "Food_Item": "Pork  Belly",
-                        "Description": "with Hoisin and House Pickles",
-                        "Restaurant_FK": "11"
+                        "food_item": "Pork  Belly",
+                        "description": "with Hoisin and House Pickles",
+                        "Restaurant_FK": "11",
+                        "price": "3.75"
                     },
                     {
                         "Menu_ID": "102",
-                        "Food_Item": "Mushroom Tempura",
-                        "Description": "with Japanese Mayo and Cucumber",
-                        "Restaurant_FK": "11"
+                        "food_item": "Mushroom Tempura",
+                        "description": "with Japanese Mayo and Cucumber",
+                        "Restaurant_FK": "11",
+                        "price": "3.75"
                     },
                     {
                         "Menu_ID": "103",
-                        "Food_Item": "Shrimp Tempura",
-                        "Description": "with Spicy Mayo, Cucumber and Radish",
-                        "Restaurant_FK": "11"
+                        "food_item": "Shrimp Tempura",
+                        "description": "with Spicy Mayo, Cucumber and Radish",
+                        "Restaurant_FK": "11",
+                        "price": "3.75"
                     },
                     {
                         "Menu_ID": "104",
-                        "Food_Item": "Burokkori Robata",
-                        "Description": "Charred Broccoli with Togarashi Glaze",
-                        "Restaurant_FK": "11"
+                        "food_item": "Burokkori Robata",
+                        "description": "Charred Broccoli with Togarashi Glaze",
+                        "Restaurant_FK": "11",
+                        "price": "5"
                     },
                     {
                         "Menu_ID": "105",
-                        "Food_Item": "Momo Robata",
-                        "Description": "Chicken Thigh with Spicy Red Miso",
-                        "Restaurant_FK": "11"
+                        "food_item": "Momo Robata",
+                        "description": "Chicken Thigh with Spicy Red Miso",
+                        "Restaurant_FK": "11",
+                        "price": "5"
                     },
                     {
                         "Menu_ID": "106",
-                        "Food_Item": "Uzura Maki Robata",
-                        "Description": "Bacon Wrapped Quail Egg",
-                        "Restaurant_FK": "11"
+                        "food_item": "Uzura Maki Robata",
+                        "description": "Bacon Wrapped Quail Egg",
+                        "Restaurant_FK": "11",
+                        "price": "6"
                     },
                     {
                         "Menu_ID": "107",
-                        "Food_Item": "Buta No Kakuni Robata",
-                        "Description": "Pork Belly",
-                        "Restaurant_FK": "11"
+                        "food_item": "Buta No Kakuni Robata",
+                        "description": "Pork Belly",
+                        "Restaurant_FK": "11",
+                        "price": "6"
                     },
                     {
                         "Menu_ID": "108",
-                        "Food_Item": "Pork  Belly Ramen",
-                        "Description": "Slow Roasted Pork Shoulder with Poached Egg, Fish Cake and Wakame in Pork Broth",
-                        "Restaurant_FK": "11"
+                        "food_item": "Pork  Belly Ramen",
+                        "description": "Slow Roasted Pork Shoulder with Poached Egg, Fish Cake and Wakame in Pork Broth",
+                        "Restaurant_FK": "11",
+                        "price": "15.5"
                     },
                     {
                         "Menu_ID": "109",
-                        "Food_Item": "Tonkatus Curry Ramen",
-                        "Description": "Crispy Pork Tenderloin with Gai-lan and Poached Egg in Curry Pork Broth",
-                        "Restaurant_FK": "11"
+                        "food_item": "Tonkatus Curry Ramen",
+                        "description": "Crispy Pork Tenderloin with Gai-lan and Poached Egg in Curry Pork Broth",
+                        "Restaurant_FK": "11",
+                        "price": "15.5"
                     },
                     {
                         "Menu_ID": "110",
-                        "Food_Item": "Chicken Kimchi Ramen",
-                        "Description": "Roasted Chicken with Mushrooms, Fish Cake, Wakame, Poached Egg and Scallion in a Spicy Kimchi Pork Broth",
-                        "Restaurant_FK": "11"
+                        "food_item": "Chicken Kimchi Ramen",
+                        "description": "Roasted Chicken with Mushrooms, Fish Cake, Wakame, Poached Egg and Scallion in a Spicy Kimchi Pork Broth",
+                        "Restaurant_FK": "11",
+                        "price": "15.5"
                     },
                     {
                         "Menu_ID": "111",
-                        "Food_Item": "Yakisoba Ramen",
-                        "Description": "Pan Fried Noodles with Mushrooms, Cabbage, Carrots, Bonito and Mayo",
-                        "Restaurant_FK": "11"
+                        "food_item": "Yakisoba Ramen",
+                        "description": "Pan Fried Noodles with Mushrooms, Cabbage, Carrots, Bonito and Mayo",
+                        "Restaurant_FK": "11",
+                        "price": "13.5"
                     },
                     {
                         "Menu_ID": "112",
-                        "Food_Item": "Curry Katsudon",
-                        "Description": "Crispy Pork with Potatoes, Carrots, Poached Egg and Tonkatsu Sauce",
-                        "Restaurant_FK": "11"
+                        "food_item": "Curry Katsudon",
+                        "description": "Crispy Pork with Potatoes, Carrots, Poached Egg and Tonkatsu Sauce",
+                        "Restaurant_FK": "11",
+                        "price": "14.5"
                     },
                     {
                         "Menu_ID": "113",
-                        "Food_Item": "Chicken Teriyaki",
-                        "Description": "Teriyaki Chicken, Fresh Vegetables, Kimchi, Scallions and Poached Egg over Rice",
-                        "Restaurant_FK": "11"
+                        "food_item": "Chicken Teriyaki",
+                        "description": "Teriyaki Chicken, Fresh Vegetables, Kimchi, Scallions and Poached Egg over Rice",
+                        "Restaurant_FK": "11",
+                        "price": "14"
                     },
                     {
                         "Menu_ID": "114",
-                        "Food_Item": "Vegetable",
-                        "Description": "Cabbage, Fresh Vegetables and Scallions over Rice",
-                        "Restaurant_FK": "11"
+                        "food_item": "Vegetable",
+                        "description": "Cabbage, Fresh Vegetables and Scallions over Rice",
+                        "Restaurant_FK": "11",
+                        "price": "12"
                     },
                     {
                         "Menu_ID": "115",
-                        "Food_Item": "Hosomaki Sake",
-                        "Description": "Salmon and Cucumber",
-                        "Restaurant_FK": "11"
+                        "food_item": "Hosomaki Sake",
+                        "description": "Salmon and Cucumber",
+                        "Restaurant_FK": "11",
+                        "price": "6"
                     },
                     {
                         "Menu_ID": "116",
-                        "Food_Item": "Hosomaki Kappa",
-                        "Description": "Cucumber",
-                        "Restaurant_FK": "11"
+                        "food_item": "Hosomaki Kappa",
+                        "description": "Cucumber",
+                        "Restaurant_FK": "11",
+                        "price": "5"
                     },
                     {
                         "Menu_ID": "117",
-                        "Food_Item": "Hosomaki Tekka Takuan",
-                        "Description": "Tuna and Pickled Radish",
-                        "Restaurant_FK": "11"
+                        "food_item": "Hosomaki Tekka Takuan",
+                        "description": "Tuna and Pickled Radish",
+                        "Restaurant_FK": "11",
+                        "price": "6"
+                    },
+                    {
+                        "Menu_ID": "118",
+                        "food_item": "Hosomaki Abokado",
+                        "description": "Avocado",
+                        "Restaurant_FK": "11",
+                        "price": "5.5"
+                    },
+                    {
+                        "Menu_ID": "119",
+                        "food_item": "Dynamite",
+                        "description": "Yellowfin, Albacore, Avocado, Lettuce and Chili Sauce",
+                        "Restaurant_FK": "11",
+                        "price": "10"
+                    },
+                    {
+                        "Menu_ID": "120",
+                        "food_item": "Spicy Tuna",
+                        "description": "Yellowfin Tuna, Gobo, Avocado, Lettuce, Chive and Spicy Mayo",
+                        "Restaurant_FK": "11",
+                        "price": "10"
+                    },
+                    {
+                        "Menu_ID": "121",
+                        "food_item": "Veggie Power",
+                        "description": "Avocado, Gobo, Cucumber, Basil, Cilantro, Carrot, Garlic, Ginger, Daikon, Jalapeño, Chive, Scallions, Lettuce and Squash Tempura wrapped in Soy Paper",
+                        "Restaurant_FK": "11",
+                        "price": "14.5"
+                    },
+                    {
+                        "Menu_ID": "122",
+                        "food_item": "Poke",
+                        "description": "Marinated Tuna, Wakame, Scallion Avocado, Cucumber and Sesame",
+                        "Restaurant_FK": "11",
+                        "price": "10"
+                    },
+                    {
+                        "Menu_ID": "123",
+                        "food_item": "California Roll",
+                        "description": "Snow Crab, Avocado, Cucumber and Masago",
+                        "Restaurant_FK": "11",
+                        "price": "12"
+                    },
+                    {
+                        "Menu_ID": "124",
+                        "food_item": "Firecracker",
+                        "description": "Shrimp Tempura, Crab, Avocado, Cucumber, Spicy Tuna, Chili Sauce and Spicy Mayo",
+                        "Restaurant_FK": "11",
+                        "price": "17"
+                    },
+                    {
+                        "Menu_ID": "125",
+                        "food_item": "Masu Roll",
+                        "description": "Shrimp Tempura, Habanero Masago, Avocado, Salmon, Scallop Sauce, Unagi and Green Chili Sauce",
+                        "Restaurant_FK": "11",
+                        "price": "17.5"
+                    },
+                    {
+                        "Menu_ID": "126",
+                        "food_item": "Crunchy Spicy Salmon",
+                        "description": "Scottish Salmon, Avocado, Chili and Ginger Garlic Sauce and Jalapeño",
+                        "Restaurant_FK": "11",
+                        "price": "15"
+                    },
+                    {
+                        "Menu_ID": "127",
+                        "food_item": "Five Season Roll",
+                        "description": "Yellowfin, Squash Tempura, Avocado, Gobo and Chili Sauce",
+                        "Restaurant_FK": "11",
+                        "price": "16"
+                    },
+                    {
+                        "Menu_ID": "128",
+                        "food_item": "Philly Roll",
+                        "description": "almon, Cucumber and Cream Cheese",
+                        "Restaurant_FK": "11",
+                        "price": "12"
                     }
                 ]
             },
             {
                 "RESTAURANT_PK": "12",
                 "restaurant": "The Wing Hut",
-                "city": "Aurora",
-                "state": "Colorado",
+                "city": "Colorado",
+                "state": "Aurora",
                 "address": "15473 E Hampden Ave",
                 "zip": "80013",
                 "phone_number": "303-699-9464",
                 "ethin_type": "American",
                 "TB_Menu": [
                     {
-                        "Menu_ID": "118",
-                        "Food_Item": "Hosomaki Abokado",
-                        "Description": "Avocado",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "129",
+                        "food_item": "Burger",
+                        "Restaurant_FK": "12",
+                        "price": "7.99"
                     },
                     {
-                        "Menu_ID": "119",
-                        "Food_Item": "Dynamite",
-                        "Description": "Yellowfin, Albacore, Avocado, Lettuce and Chili Sauce",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "130",
+                        "food_item": "Grilled Chicken Sandwich",
+                        "description": "Grilled or crispy chicken, lettuce, tomatoes, pickles, onion and mayo",
+                        "Restaurant_FK": "12",
+                        "price": "7.99"
                     },
                     {
-                        "Menu_ID": "120",
-                        "Food_Item": "Spicy Tuna",
-                        "Description": "Yellowfin Tuna, Gobo, Avocado, Lettuce, Chive and Spicy Mayo",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "131",
+                        "food_item": "Po' Boys",
+                        "description": "Lettuce, tomatoes and spicy mayo (catfish comes with lettuce, tomato, pickles and tartar).",
+                        "Restaurant_FK": "12",
+                        "price": "7.99"
                     },
                     {
-                        "Menu_ID": "121",
-                        "Food_Item": "Veggie Power",
-                        "Description": "Avocado, Gobo, Cucumber, Basil, Cilantro, Carrot, Garlic, Ginger, Daikon, Jalapeño, Chive, Scallions, Lettuce and Squash Tempura wrapped in Soy Paper",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "132",
+                        "food_item": "Classic Bone-In Wings",
+                        "description": "1/2 pound (4-5) wings",
+                        "Restaurant_FK": "12",
+                        "price": "4.99",
+                        "size": [
+                            {
+                                "Size_ID": "1",
+                                "Menu_ID": "132",
+                                "half_pount": "8.49",
+                                "full_pound": "11.99"
+                            }
+                        ],
+                        "flavor": [
+                            {
+                                "Flavor_ID": "1",
+                                "Menu_ID": "132",
+                                "Mild": "1",
+                                "Light": "1",
+                                "Medium": "1",
+                                "Garlic_Parmesan": "1",
+                                "Garlic": "1",
+                                "Chili_Lime_Ranch": "1",
+                                "Mild_Pesto-Parmesan": "1",
+                                "Bee_Sting__honey_hot_": "1",
+                                "Hot": "1",
+                                "Chipotle": "1",
+                                "Fire_Ranch": "1",
+                                "XXX_Hot": "1",
+                                "Spicey_Pesto-Parmesan": "1",
+                                "Mo_Hotter": "1",
+                                "Inferno_Ranch": "1",
+                                "Mango_Madness": "1",
+                                "Way_TOO_Hot__habanero_": "1",
+                                "Sweet_and_Sour": "1",
+                                "Honey_Lemon_Pepper": "1",
+                                "Honey_Garlic_Pepper": "1",
+                                "Salt_and_Vinegar": "1",
+                                "Teriyaki": "1",
+                                "Honey_Barbecue": "1",
+                                "Barbecue": "1",
+                                "Honey_Mustard": "1",
+                                "Pad_Thai": "1",
+                                "Asian": "1",
+                                "Spicey_Peanut": "1",
+                                "Hot_Honey_Mustard": "1",
+                                "Raging_Barbecue": "1",
+                                "Cajun_Seasoning": "1",
+                                "Hickory_Hog_Seasoning": "1",
+                                "Garlic_Butter_Seasoning": "1",
+                                "Italian_Parmesan_Seasoning": "1",
+                                "Garlic_Pepper_Seasoning": "1",
+                                "Dry_Ranch_Seasoning": "1",
+                                "Greek_Seasoning": "1",
+                                "Jerk_Seasoning": "1",
+                                "Lemon_Pepper_Seasoning": "1",
+                                "Honey_Lemon_Pepper_Seasoning": "1",
+                                "Honey_Garlic_Pepper_Seasoning": "1",
+                                "Habanero_Jerk_Seasoning": "1",
+                                "BBQ_Honey_Red_Curry": "0",
+                                "Rootbeer_BBQ": "0",
+                                "Bourbon_Teriyaki": "0",
+                                "Salt_and_Pepper": "0",
+                                "Buffalo_Sriracha": "0",
+                                "Sweet_Chili": "0",
+                                "Gochujang": "0",
+                                "Szechuan_Garlic_Parmesan": "0",
+                                "Yellow_Curry": "0",
+                                "Mama_x0027_s_Sweet_and_Salty": "0",
+                                "Peppers_Galore": "0",
+                                "Mango_Thai_Chili": "0",
+                                "Dr_Pepper_BBQ": "0",
+                                "Ranch_Dust_Seasoning": "0",
+                                "Buffalo_Dry_Shake_Seasoning": "0",
+                                "Sweet_Chili_Lime": "0",
+                                "Saucy_Buffalo": "0",
+                                "Torch_Sauce": "0"
+                            }
+                        ]
                     },
                     {
-                        "Menu_ID": "122",
-                        "Food_Item": "Poke",
-                        "Description": "Marinated Tuna, Wakame, Scallion Avocado, Cucumber and Sesame",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "133",
+                        "food_item": "Classic Bone-In Wings",
+                        "description": "Full Pound (7-10 Wings)",
+                        "Restaurant_FK": "12",
+                        "price": "9.49"
                     },
                     {
-                        "Menu_ID": "123",
-                        "Food_Item": "California Roll",
-                        "Description": "Snow Crab, Avocado, Cucumber and Masago",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "134",
+                        "food_item": "Boneless Bites",
+                        "description": "small",
+                        "Restaurant_FK": "12",
+                        "size": [
+                            {
+                                "Size_ID": "2",
+                                "Menu_ID": "134",
+                                "small": "9.49",
+                                "large": "13.99"
+                            }
+                        ],
+                        "flavor": [
+                            {
+                                "Flavor_ID": "2",
+                                "Menu_ID": "134",
+                                "Mild": "1",
+                                "Light": "1",
+                                "Medium": "1",
+                                "Garlic_Parmesan": "1",
+                                "Garlic": "1",
+                                "Chili_Lime_Ranch": "1",
+                                "Mild_Pesto-Parmesan": "1",
+                                "Bee_Sting__honey_hot_": "1",
+                                "Hot": "1",
+                                "Chipotle": "1",
+                                "Fire_Ranch": "1",
+                                "XXX_Hot": "1",
+                                "Spicey_Pesto-Parmesan": "1",
+                                "Mo_Hotter": "1",
+                                "Inferno_Ranch": "1",
+                                "Mango_Madness": "1",
+                                "Way_TOO_Hot__habanero_": "1",
+                                "Sweet_and_Sour": "1",
+                                "Honey_Lemon_Pepper": "1",
+                                "Honey_Garlic_Pepper": "1",
+                                "Salt_and_Vinegar": "1",
+                                "Teriyaki": "1",
+                                "Honey_Barbecue": "1",
+                                "Barbecue": "1",
+                                "Honey_Mustard": "1",
+                                "Pad_Thai": "1",
+                                "Asian": "1",
+                                "Spicey_Peanut": "1",
+                                "Hot_Honey_Mustard": "1",
+                                "Raging_Barbecue": "1",
+                                "Cajun_Seasoning": "1",
+                                "Hickory_Hog_Seasoning": "1",
+                                "Garlic_Butter_Seasoning": "1",
+                                "Italian_Parmesan_Seasoning": "1",
+                                "Garlic_Pepper_Seasoning": "1",
+                                "Dry_Ranch_Seasoning": "1",
+                                "Greek_Seasoning": "1",
+                                "Jerk_Seasoning": "1",
+                                "Lemon_Pepper_Seasoning": "1",
+                                "Honey_Lemon_Pepper_Seasoning": "1",
+                                "Honey_Garlic_Pepper_Seasoning": "1",
+                                "Habanero_Jerk_Seasoning": "1",
+                                "BBQ_Honey_Red_Curry": "0",
+                                "Rootbeer_BBQ": "0",
+                                "Bourbon_Teriyaki": "0",
+                                "Salt_and_Pepper": "0",
+                                "Buffalo_Sriracha": "0",
+                                "Sweet_Chili": "0",
+                                "Gochujang": "0",
+                                "Szechuan_Garlic_Parmesan": "0",
+                                "Yellow_Curry": "0",
+                                "Mama_x0027_s_Sweet_and_Salty": "0",
+                                "Peppers_Galore": "0",
+                                "Mango_Thai_Chili": "0",
+                                "Dr_Pepper_BBQ": "0",
+                                "Ranch_Dust_Seasoning": "0",
+                                "Buffalo_Dry_Shake_Seasoning": "0",
+                                "Sweet_Chili_Lime": "0",
+                                "Saucy_Buffalo": "0",
+                                "Torch_Sauce": "0"
+                            }
+                        ]
                     },
                     {
-                        "Menu_ID": "124",
-                        "Food_Item": "Firecracker",
-                        "Description": "Shrimp Tempura, Crab, Avocado, Cucumber, Spicy Tuna, Chili Sauce and Spicy Mayo",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "135",
+                        "food_item": "Boneless Bites",
+                        "description": "Large",
+                        "Restaurant_FK": "12",
+                        "price": "10.99"
                     },
                     {
-                        "Menu_ID": "125",
-                        "Food_Item": "Masu Roll",
-                        "Description": "Shrimp Tempura, Habanero Masago, Avocado, Salmon, Scallop Sauce, Unagi and Green Chili Sauce",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "136",
+                        "food_item": "Chicken Strips",
+                        "description": "one piece",
+                        "Restaurant_FK": "12",
+                        "size": [
+                            {
+                                "Size_ID": "3",
+                                "Menu_ID": "136",
+                                "one_piece": "2.49",
+                                "six_piece": "13.99"
+                            }
+                        ],
+                        "flavor": [
+                            {
+                                "Flavor_ID": "3",
+                                "Menu_ID": "136",
+                                "Mild": "1",
+                                "Light": "1",
+                                "Medium": "1",
+                                "Garlic_Parmesan": "1",
+                                "Garlic": "1",
+                                "Chili_Lime_Ranch": "1",
+                                "Mild_Pesto-Parmesan": "1",
+                                "Bee_Sting__honey_hot_": "1",
+                                "Hot": "1",
+                                "Chipotle": "1",
+                                "Fire_Ranch": "1",
+                                "XXX_Hot": "1",
+                                "Spicey_Pesto-Parmesan": "1",
+                                "Mo_Hotter": "1",
+                                "Inferno_Ranch": "1",
+                                "Mango_Madness": "1",
+                                "Way_TOO_Hot__habanero_": "1",
+                                "Sweet_and_Sour": "1",
+                                "Honey_Lemon_Pepper": "1",
+                                "Honey_Garlic_Pepper": "1",
+                                "Salt_and_Vinegar": "1",
+                                "Teriyaki": "1",
+                                "Honey_Barbecue": "1",
+                                "Barbecue": "1",
+                                "Honey_Mustard": "1",
+                                "Pad_Thai": "1",
+                                "Asian": "1",
+                                "Spicey_Peanut": "1",
+                                "Hot_Honey_Mustard": "1",
+                                "Raging_Barbecue": "1",
+                                "Cajun_Seasoning": "1",
+                                "Hickory_Hog_Seasoning": "1",
+                                "Garlic_Butter_Seasoning": "1",
+                                "Italian_Parmesan_Seasoning": "1",
+                                "Garlic_Pepper_Seasoning": "1",
+                                "Dry_Ranch_Seasoning": "1",
+                                "Greek_Seasoning": "1",
+                                "Jerk_Seasoning": "1",
+                                "Lemon_Pepper_Seasoning": "1",
+                                "Honey_Lemon_Pepper_Seasoning": "1",
+                                "Honey_Garlic_Pepper_Seasoning": "1",
+                                "Habanero_Jerk_Seasoning": "1",
+                                "BBQ_Honey_Red_Curry": "0",
+                                "Rootbeer_BBQ": "0",
+                                "Bourbon_Teriyaki": "0",
+                                "Salt_and_Pepper": "0",
+                                "Buffalo_Sriracha": "0",
+                                "Sweet_Chili": "0",
+                                "Gochujang": "0",
+                                "Szechuan_Garlic_Parmesan": "0",
+                                "Yellow_Curry": "0",
+                                "Mama_x0027_s_Sweet_and_Salty": "0",
+                                "Peppers_Galore": "0",
+                                "Mango_Thai_Chili": "0",
+                                "Dr_Pepper_BBQ": "0",
+                                "Ranch_Dust_Seasoning": "0",
+                                "Buffalo_Dry_Shake_Seasoning": "0",
+                                "Sweet_Chili_Lime": "0",
+                                "Saucy_Buffalo": "0",
+                                "Torch_Sauce": "0"
+                            }
+                        ]
                     },
                     {
-                        "Menu_ID": "126",
-                        "Food_Item": "Crunchy Spicy Salmon",
-                        "Description": "Scottish Salmon, Avocado, Chili and Ginger Garlic Sauce and Jalapeño",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "137",
+                        "food_item": "Chicken Strips",
+                        "description": "6 pieces",
+                        "Restaurant_FK": "12",
+                        "price": "13.99"
                     },
                     {
-                        "Menu_ID": "127",
-                        "Food_Item": "Five Season Roll",
-                        "Description": "Yellowfin, Squash Tempura, Avocado, Gobo and Chili Sauce",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "138",
+                        "food_item": "Garden Salad",
+                        "description": "small - Cucumbers, Tomatoes and onions",
+                        "Restaurant_FK": "12",
+                        "price": "3.99"
                     },
                     {
-                        "Menu_ID": "128",
-                        "Food_Item": "Philly Roll",
-                        "Description": "almon, Cucumber and Cream Cheese",
-                        "Restaurant_FK": "11"
+                        "Menu_ID": "139",
+                        "food_item": "Garden Salad",
+                        "description": "Large - Cucumbers, Tomatoes and onions",
+                        "Restaurant_FK": "12",
+                        "price": "5.99"
+                    },
+                    {
+                        "Menu_ID": "140",
+                        "food_item": "Caesar Salad Small",
+                        "description": "Romain and spring mix, house Caesar dressing, shaved parmesan and cajun croutons",
+                        "Restaurant_FK": "12",
+                        "price": "3.99"
+                    },
+                    {
+                        "Menu_ID": "141",
+                        "food_item": "Ceasar Salad Large",
+                        "description": "Romain and spring mix, house Caesar dressing, shaved parmesan and cajun croutons",
+                        "Restaurant_FK": "12",
+                        "price": "5.99"
+                    },
+                    {
+                        "Menu_ID": "142",
+                        "food_item": "Curly Fries",
+                        "Restaurant_FK": "12",
+                        "price": "2.49"
+                    },
+                    {
+                        "Menu_ID": "143",
+                        "food_item": "Straight Fries",
+                        "Restaurant_FK": "12",
+                        "price": "2.49"
+                    },
+                    {
+                        "Menu_ID": "144",
+                        "food_item": "Crispy Onion Rings",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "145",
+                        "food_item": "Mac & Cheese Bites",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "146",
+                        "food_item": "Pickle Chips",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "147",
+                        "food_item": "Jalapeno Poppers",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "148",
+                        "food_item": "Sweet Potato Fries",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "149",
+                        "food_item": "Fried Zucchini",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "150",
+                        "food_item": "Corn Fritters",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "151",
+                        "food_item": "Battered Mushrooms",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "152",
+                        "food_item": "Mozzarella Sticks",
+                        "Restaurant_FK": "12",
+                        "price": "4.99"
+                    },
+                    {
+                        "Menu_ID": "153",
+                        "food_item": "Cajun Slaw",
+                        "Restaurant_FK": "12",
+                        "price": "3.59"
+                    },
+                    {
+                        "Menu_ID": "154",
+                        "food_item": "Hushpuppies",
+                        "Restaurant_FK": "12",
+                        "price": "2.99"
+                    },
+                    {
+                        "Menu_ID": "155",
+                        "food_item": "Dressing | Ranch",
+                        "description": "made daily from fresh ingredients",
+                        "Restaurant_FK": "12",
+                        "price": "0.5"
+                    },
+                    {
+                        "Menu_ID": "156",
+                        "food_item": "Dressing | Blue Cheese",
+                        "description": "Made from scratch",
+                        "Restaurant_FK": "12",
+                        "price": "0.5"
+                    },
+                    {
+                        "Menu_ID": "157",
+                        "food_item": "Veggies | Small",
+                        "description": "Carrots & Celery, the perfect hot wing companion!",
+                        "Restaurant_FK": "12",
+                        "price": "1"
+                    },
+                    {
+                        "Menu_ID": "158",
+                        "food_item": "Veggies | Large",
+                        "description": "Carrots & Celery, the perfect hot wing companion!",
+                        "Restaurant_FK": "12",
+                        "price": "0.5"
                     }
                 ]
             },
             {
                 "RESTAURANT_PK": "13",
                 "restaurant": "Blue Pan",
-                "city": "Denver",
-                "state": "Colorado",
+                "city": "Colorado",
+                "state": "Denver",
                 "address": "3930 West 32nd Ave",
                 "zip": "80212",
                 "phone_number": "208-338-500",
-                "ethin_type": "Italian"
+                "ethin_type": "Italian",
+                "TB_Menu": [
+                    {
+                        "Menu_ID": "159",
+                        "food_item": "Small Cheese Square Pizza",
+                        "description": "4 PIECES (SERVES 1-2)",
+                        "Restaurant_FK": "13",
+                        "price": "11"
+                    },
+                    {
+                        "Menu_ID": "160",
+                        "food_item": "LARGE CHEESE SQUARE PIZZA",
+                        "description": "8 PIECES (SERVES 2-4)",
+                        "Restaurant_FK": "13",
+                        "price": "20"
+                    },
+                    {
+                        "Menu_ID": "161",
+                        "food_item": "BROOKLYN BRIDGE",
+                        "description": "1st Place - International Pizza Challenge 2014 (Traditional Division): signature pizza sauce / mozzarella and brick cheese / creamy NY ricotta / cupping pepperoni / hand pinched Italian sausage / fresh chopped garlic / Sicilian oregano / pecorino Romano c",
+                        "Restaurant_FK": "13",
+                        "price": "17"
+                    },
+                    {
+                        "Menu_ID": "162",
+                        "food_item": "PARMA ITALIA",
+                        "description": "Inspired by the \"Pizza Queen\" Laura Meyer. 1st Place - Pizza World Championships - Parma, Italy 2013: signature pizza sauce / burrata and smoked scamorza cheese / prosciutto di Parma / sopressata / fresh arugula / shaved parmigiano Reggiano / evoo",
+                        "Restaurant_FK": "13",
+                        "price": "21"
+                    },
+                    {
+                        "Menu_ID": "163",
+                        "food_item": "three-one-three",
+                        "description": "1st Place - International Pizza Challenge 2013 (Pan Division): creamy NY ricotta / fresh garlic / Genoa salami / Calabria red chili peppers / sweet piquante peppers / fresh basil / fresh arugula / shaved parmigiano Reggiano / evoo / no pizza sauce on this",
+                        "Restaurant_FK": "13",
+                        "price": "18"
+                    },
+                    {
+                        "Menu_ID": "164",
+                        "food_item": "SWEETY PIE",
+                        "description": "signature pizza sauce / fresh pineapple / bacon (Tender Belly - Denver, CO) / house pickled jalapeno / creamy NY ricotta / Sicilian oregano / pecorino Romano cheese",
+                        "Restaurant_FK": "13",
+                        "price": "16"
+                    },
+                    {
+                        "Menu_ID": "165",
+                        "food_item": "SOUTHWESTERN BBQ CHICKEN",
+                        "description": "spicy BBQ sauce / signature pizza sauce / bacon (Tender Belly - Denver, CO) / grilled chicken / caramelized onions / chopped cilantro / corn",
+                        "Restaurant_FK": "13",
+                        "price": "17"
+                    },
+                    {
+                        "Menu_ID": "166",
+                        "food_item": "ROCKY MOUNTAIN",
+                        "description": "signature pizza sauce / pepperoni / hand pinched Italian sausage / mixed bell peppers / red and green onions / Italian green olives / Sicilian oregano / pecorino Romano cheese",
+                        "Restaurant_FK": "13",
+                        "price": "18"
+                    },
+                    {
+                        "Menu_ID": "167",
+                        "food_item": "GOLD HILL",
+                        "description": "mozzarella / gorgonzola / asiago / fig preserves / prosciutto di Parma / balsamic glaze / shaved parmigiano Reggiano / no pizza sauce on this pizza",
+                        "Restaurant_FK": "13",
+                        "price": "18"
+                    },
+                    {
+                        "Menu_ID": "168",
+                        "food_item": "PROSPECTOR",
+                        "description": "5th Place - International Pizza Challenge 2012 (Pan Division): signature pizza sauce / roasted Anaheim green chilies / chopped garlic / fresh mushrooms / hand pinched Italian sausage",
+                        "Restaurant_FK": "13",
+                        "price": "15"
+                    },
+                    {
+                        "Menu_ID": "169",
+                        "food_item": "JOHNNY PRIMO",
+                        "description": "signature pizza sauce (under the cheese) / double pepperoni (cupping & regular) / Sicilian oregano / pecorino Romano cheese",
+                        "Restaurant_FK": "13",
+                        "price": "14"
+                    },
+                    {
+                        "Menu_ID": "170",
+                        "food_item": "MOUNTAIN TOP",
+                        "description": "2nd Place - International Pizza Challenge 2011 (Traditional Division): signature pizza sauce / two styles of pepperoni (cupping & regular) / sautéed white button mushrooms / Sicilian oregano / pecorino Romano cheese",
+                        "Restaurant_FK": "13",
+                        "price": "14"
+                    },
+                    {
+                        "Menu_ID": "171",
+                        "food_item": "SAN MARZANO PESTO CHICKEN",
+                        "description": "homemade basil pesto / signature pizza sauce / feta and mozzarella cheese / housemade grilled chicken / roasted cherry tomatoes / Sicilian oregano / pecorino Romano cheese",
+                        "Restaurant_FK": "13",
+                        "price": "16"
+                    },
+                    {
+                        "Menu_ID": "172",
+                        "food_item": "KOTO TELLURIDE",
+                        "description": "creamy artichoke & spinach sauce / roasted garlic cloves / sun-dried and roasted cherry tomatoes / artichoke hearts / no pizza sauce on this pizza",
+                        "Restaurant_FK": "13",
+                        "price": "16"
+                    },
+                    {
+                        "Menu_ID": "173",
+                        "food_item": "TOMATO PIE",
+                        "description": "signature pizza sauce / roasted garlic cloves / parmigiano Reggiano / pecorino Romano cheese / Sicilian oregano / pecorino Romano cheese / evoo",
+                        "Restaurant_FK": "13",
+                        "price": "14"
+                    }
+                ]
             },
             {
                 "RESTAURANT_PK": "14",
                 "restaurant": "Chick N Beer",
-                "city": "Oklahoma City",
-                "state": "Oklahoma",
+                "city": "Oklahoma",
+                "state": "Oklahoma City",
                 "address": "715 NW 23rd St.",
                 "zip": "73103",
                 "phone_number": "405-604-6995",
                 "ethin_type": "American",
                 "TB_Menu": [
                     {
-                        "Menu_ID": "129",
-                        "Food_Item": "Burger",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "174",
+                        "food_item": "Boneless",
+                        "description": "All white chicken lightly breaded",
+                        "Restaurant_FK": "14",
+                        "size": [
+                            {
+                                "Size_ID": "4",
+                                "Menu_ID": "174",
+                                "five_piece": "6.5",
+                                "ten_piece": "12",
+                                "fifteen_piece": "16"
+                            }
+                        ],
+                        "flavor": [
+                            {
+                                "Flavor_ID": "4",
+                                "Menu_ID": "174",
+                                "Mild": "0",
+                                "Light": "0",
+                                "Medium": "0",
+                                "Garlic_Parmesan": "0",
+                                "Garlic": "0",
+                                "Chili_Lime_Ranch": "0",
+                                "Mild_Pesto-Parmesan": "0",
+                                "Bee_Sting__honey_hot_": "0",
+                                "Hot": "0",
+                                "Chipotle": "0",
+                                "Fire_Ranch": "0",
+                                "XXX_Hot": "0",
+                                "Spicey_Pesto-Parmesan": "0",
+                                "Mo_Hotter": "0",
+                                "Inferno_Ranch": "0",
+                                "Mango_Madness": "0",
+                                "Way_TOO_Hot__habanero_": "0",
+                                "Sweet_and_Sour": "0",
+                                "Honey_Lemon_Pepper": "1",
+                                "Honey_Garlic_Pepper": "0",
+                                "Salt_and_Vinegar": "0",
+                                "Teriyaki": "0",
+                                "Honey_Barbecue": "0",
+                                "Barbecue": "0",
+                                "Honey_Mustard": "0",
+                                "Pad_Thai": "0",
+                                "Asian": "0",
+                                "Spicey_Peanut": "0",
+                                "Hot_Honey_Mustard": "0",
+                                "Raging_Barbecue": "0",
+                                "Cajun_Seasoning": "0",
+                                "Hickory_Hog_Seasoning": "0",
+                                "Garlic_Butter_Seasoning": "0",
+                                "Italian_Parmesan_Seasoning": "0",
+                                "Garlic_Pepper_Seasoning": "0",
+                                "Dry_Ranch_Seasoning": "0",
+                                "Greek_Seasoning": "0",
+                                "Jerk_Seasoning": "0",
+                                "Lemon_Pepper_Seasoning": "0",
+                                "Honey_Lemon_Pepper_Seasoning": "0",
+                                "Honey_Garlic_Pepper_Seasoning": "0",
+                                "Habanero_Jerk_Seasoning": "0",
+                                "BBQ_Honey_Red_Curry": "1",
+                                "Rootbeer_BBQ": "1",
+                                "Bourbon_Teriyaki": "1",
+                                "Salt_and_Pepper": "1",
+                                "Buffalo_Sriracha": "1",
+                                "Sweet_Chili": "1",
+                                "Gochujang": "1",
+                                "Szechuan_Garlic_Parmesan": "1",
+                                "Yellow_Curry": "1",
+                                "Mama_x0027_s_Sweet_and_Salty": "1",
+                                "Peppers_Galore": "1",
+                                "Mango_Thai_Chili": "1",
+                                "Dr_Pepper_BBQ": "0",
+                                "Ranch_Dust_Seasoning": "0",
+                                "Buffalo_Dry_Shake_Seasoning": "0",
+                                "Sweet_Chili_Lime": "0",
+                                "Saucy_Buffalo": "0",
+                                "Torch_Sauce": "0"
+                            }
+                        ]
                     },
                     {
-                        "Menu_ID": "130",
-                        "Food_Item": "Grilled Chicken Sandwich",
-                        "Description": "Grilled or crispy chicken, lettuce, tomatoes, pickles, onion and mayo",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "175",
+                        "food_item": "Traditional",
+                        "description": "Double fried Gluten Free potato flour bone-in wingettes",
+                        "Restaurant_FK": "14",
+                        "size": [
+                            {
+                                "Size_ID": "5",
+                                "Menu_ID": "175",
+                                "six_piece": "6.5",
+                                "twelve_piece": "12",
+                                "eighteen_piece": "16"
+                            }
+                        ],
+                        "flavor": [
+                            {
+                                "Flavor_ID": "5",
+                                "Menu_ID": "175",
+                                "Mild": "0",
+                                "Light": "0",
+                                "Medium": "0",
+                                "Garlic_Parmesan": "0",
+                                "Garlic": "0",
+                                "Chili_Lime_Ranch": "0",
+                                "Mild_Pesto-Parmesan": "0",
+                                "Bee_Sting__honey_hot_": "0",
+                                "Hot": "0",
+                                "Chipotle": "0",
+                                "Fire_Ranch": "0",
+                                "XXX_Hot": "0",
+                                "Spicey_Pesto-Parmesan": "0",
+                                "Mo_Hotter": "0",
+                                "Inferno_Ranch": "0",
+                                "Mango_Madness": "0",
+                                "Way_TOO_Hot__habanero_": "0",
+                                "Sweet_and_Sour": "0",
+                                "Honey_Lemon_Pepper": "1",
+                                "Honey_Garlic_Pepper": "0",
+                                "Salt_and_Vinegar": "0",
+                                "Teriyaki": "0",
+                                "Honey_Barbecue": "0",
+                                "Barbecue": "0",
+                                "Honey_Mustard": "0",
+                                "Pad_Thai": "0",
+                                "Asian": "0",
+                                "Spicey_Peanut": "0",
+                                "Hot_Honey_Mustard": "0",
+                                "Raging_Barbecue": "0",
+                                "Cajun_Seasoning": "0",
+                                "Hickory_Hog_Seasoning": "0",
+                                "Garlic_Butter_Seasoning": "0",
+                                "Italian_Parmesan_Seasoning": "0",
+                                "Garlic_Pepper_Seasoning": "0",
+                                "Dry_Ranch_Seasoning": "0",
+                                "Greek_Seasoning": "0",
+                                "Jerk_Seasoning": "0",
+                                "Lemon_Pepper_Seasoning": "0",
+                                "Honey_Lemon_Pepper_Seasoning": "0",
+                                "Honey_Garlic_Pepper_Seasoning": "0",
+                                "Habanero_Jerk_Seasoning": "0",
+                                "BBQ_Honey_Red_Curry": "1",
+                                "Rootbeer_BBQ": "1",
+                                "Bourbon_Teriyaki": "1",
+                                "Salt_and_Pepper": "1",
+                                "Buffalo_Sriracha": "1",
+                                "Sweet_Chili": "1",
+                                "Gochujang": "1",
+                                "Szechuan_Garlic_Parmesan": "1",
+                                "Yellow_Curry": "1",
+                                "Mama_x0027_s_Sweet_and_Salty": "1",
+                                "Peppers_Galore": "1",
+                                "Mango_Thai_Chili": "1",
+                                "Dr_Pepper_BBQ": "0",
+                                "Ranch_Dust_Seasoning": "0",
+                                "Buffalo_Dry_Shake_Seasoning": "0",
+                                "Sweet_Chili_Lime": "0",
+                                "Saucy_Buffalo": "0",
+                                "Torch_Sauce": "0"
+                            }
+                        ]
                     },
                     {
-                        "Menu_ID": "131",
-                        "Food_Item": "Po' Boys",
-                        "Description": "Lettuce, tomatoes and spicy mayo (catfish comes with lettuce, tomato, pickles and tartar).",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "176",
+                        "food_item": "DIP DUO WITH WONTON CHIPS",
+                        "description": "Edamole \"edamame guac\" & kimchi salsa & wonton chips",
+                        "Restaurant_FK": "14",
+                        "price": "7"
                     },
                     {
-                        "Menu_ID": "132",
-                        "Food_Item": "Classic Bone-In Wings",
-                        "Description": "1/2 pound (4-5) wings",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "177",
+                        "food_item": "KIMCHI FRIES",
+                        "description": "Crispy natural fries topped w/ melted cheddar, bacon, kimchi, red & green onions, & spicy ranch",
+                        "Restaurant_FK": "14",
+                        "price": "8"
                     },
                     {
-                        "Menu_ID": "133",
-                        "Food_Item": "Classic Bone-In Wings",
-                        "Description": "Full Pound (7-10 Wings)",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "178",
+                        "food_item": "FRIED CAULIFLOWER",
+                        "description": "Dipped in beer batter",
+                        "Restaurant_FK": "14",
+                        "price": "5"
                     },
                     {
-                        "Menu_ID": "134",
-                        "Food_Item": "Boneless Bites",
-                        "Description": "small",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "179",
+                        "food_item": "NACHO AVERAGE CHICK",
+                        "description": "Wonton chips, cheese, red & green onions, pickled jalapenos, spicy ranch, sour cream w/ chicken",
+                        "Restaurant_FK": "14",
+                        "price": "8.5"
                     },
                     {
-                        "Menu_ID": "135",
-                        "Food_Item": "Boneless Bites",
-                        "Description": "Large",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "180",
+                        "food_item": "MOTHER CLUCKING FRIES",
+                        "description": "Traditional fries, cheese, red & green onions, pickled jalapenos, spicy ranch, sour cream w/ chicken",
+                        "Restaurant_FK": "14",
+                        "price": "9.5"
                     },
                     {
-                        "Menu_ID": "136",
-                        "Food_Item": "Chicken Strips",
-                        "Description": "one piece",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "181",
+                        "food_item": "FRIED PICKLES",
+                        "description": "Spicy rub battered fried pickles serve w/ a side of honey mustard",
+                        "Restaurant_FK": "14",
+                        "price": "4"
                     },
                     {
-                        "Menu_ID": "137",
-                        "Food_Item": "Chicken Strips",
-                        "Description": "6 pieces",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "182",
+                        "food_item": "ROASTED SHISHITO PEPPERS",
+                        "description": "Fire roasted shishito peppers w/ gochujang sauce",
+                        "Restaurant_FK": "14",
+                        "price": "6"
                     },
                     {
-                        "Menu_ID": "138",
-                        "Food_Item": "Garden Salad",
-                        "Description": "small - Cucumbers, Tomatoes and onions",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "183",
+                        "food_item": "SALT AND PEPPER FRIES",
+                        "description": "Natural Cut Fries w/ sauté onions, jalapenos, salt, & pepper",
+                        "Restaurant_FK": "14",
+                        "price": "5"
                     },
                     {
-                        "Menu_ID": "139",
-                        "Food_Item": "Garden Salad",
-                        "Description": "Large - Cucumbers, Tomatoes and onions",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "184",
+                        "food_item": "STEAMED EDAMAME",
+                        "description": "Steamed soybeans seasoned w/ salt & Old Bay spice",
+                        "Restaurant_FK": "14",
+                        "price": "5"
                     },
                     {
-                        "Menu_ID": "140",
-                        "Food_Item": "Caesar Salad Small",
-                        "Description": "Romain and spring mix, house Caesar dressing, shaved parmesan and cajun croutons",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "185",
+                        "food_item": "CRISPY CHICKEN SLIDERS",
+                        "description": "Fried chicken breast, house cucumber pickle, & spicy herb vinaigrette (original or hot)",
+                        "Restaurant_FK": "14",
+                        "price": "4.5"
                     },
                     {
-                        "Menu_ID": "141",
-                        "Food_Item": "Ceasar Salad Large",
-                        "Description": "Romain and spring mix, house Caesar dressing, shaved parmesan and cajun croutons",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "186",
+                        "food_item": "COLD WEDGE SALAD",
+                        "description": "Chopped romaine, bacon, red onion, tomato, scallion, w/ spicy ranch or ranch",
+                        "Restaurant_FK": "14",
+                        "price": "7"
                     },
                     {
-                        "Menu_ID": "142",
-                        "Food_Item": "Curly Fries",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "187",
+                        "food_item": "THAI CRUNCH SALAD",
+                        "description": "Ginger vinaigrette, lettuce, red onion, cucumber, edamame, scallion,crushed peanuts, mandarin orange, & wonton bits",
+                        "Restaurant_FK": "14",
+                        "price": "7"
                     },
                     {
-                        "Menu_ID": "143",
-                        "Food_Item": "Straight Fries",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "188",
+                        "food_item": "SWEET POTATO WAFFLES",
+                        "description": "Lightly salted sweet potato waffles",
+                        "Restaurant_FK": "14",
+                        "price": "3"
                     },
                     {
-                        "Menu_ID": "144",
-                        "Food_Item": "Crispy Onion Rings",
-                        "Restaurant_FK": "12"
+                        "Menu_ID": "189",
+                        "food_item": "HOUSE PICKLES",
+                        "description": "cucumber pickle",
+                        "Restaurant_FK": "14",
+                        "price": "1"
                     },
                     {
-                        "Menu_ID": "145",
-                        "Food_Item": "Mac & Cheese Bites",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "146",
-                        "Food_Item": "Pickle Chips",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "147",
-                        "Food_Item": "Jalapeno Poppers",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "148",
-                        "Food_Item": "Sweet Potato Fries",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "149",
-                        "Food_Item": "Fried Zucchini",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "150",
-                        "Food_Item": "Corn Fritters",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "151",
-                        "Food_Item": "Battered Mushrooms",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "152",
-                        "Food_Item": "Mozzarella Sticks",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "153",
-                        "Food_Item": "Cajun Slaw",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "154",
-                        "Food_Item": "Hushpuppies",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "155",
-                        "Food_Item": "Dressing | Ranch",
-                        "Description": "made daily from fresh ingredients",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "156",
-                        "Food_Item": "Dressing | Blue Cheese",
-                        "Description": "Made from scratch",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "157",
-                        "Food_Item": "Veggies | Small",
-                        "Description": "Carrots & Celery, the perfect hot wing companion!",
-                        "Restaurant_FK": "12"
-                    },
-                    {
-                        "Menu_ID": "158",
-                        "Food_Item": "Veggies | Large",
-                        "Description": "Carrots & Celery, the perfect hot wing companion!",
-                        "Restaurant_FK": "12"
-                    }        
+                        "Menu_ID": "190",
+                        "food_item": "TRADITIONAL FRIES",
+                        "description": "Lightly salted traditional fries",
+                        "Restaurant_FK": "14",
+                        "price": "2"
+                    }
                 ]
             },
             {
                 "RESTAURANT_PK": "15",
                 "restaurant": "Pounds",
-                "city": "North Dakota",
-                "state": "Fargo",
+                "city": "Fargo",
+                "state": "North Dakota",
                 "address": "1st Ave N. Fargo",
                 "zip": "58102",
                 "phone_number": "701-478-1234",
                 "ethin_type": "American",
                 "TB_Menu": [
                     {
-                        "Menu_ID": "159",
-                        "Food_Item": "Small Cheese Square Pizza",
-                        "Description": "4 PIECES (SERVES 1-2)",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "160",
-                        "Food_Item": "LARGE CHEESE SQUARE PIZZA",
-                        "Description": "8 PIECES (SERVES 2-4)",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "161",
-                        "Food_Item": "BROOKLYN BRIDGE",
-                        "Description": "1st Place - International Pizza Challenge 2014 (Traditional Division): signature pizza sauce / mozzarella and brick cheese / creamy NY ricotta / cupping pepperoni / hand pinched Italian sausage / fresh chopped garlic / Sicilian oregano / pecorino Romano c",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "162",
-                        "Food_Item": "PARMA ITALIA",
-                        "Description": "Inspired by the \"Pizza Queen\" Laura Meyer. 1st Place - Pizza World Championships - Parma, Italy 2013: signature pizza sauce / burrata and smoked scamorza cheese / prosciutto di Parma / sopressata / fresh arugula / shaved parmigiano Reggiano / evoo",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "163",
-                        "Food_Item": "three-one-three",
-                        "Description": "1st Place - International Pizza Challenge 2013 (Pan Division): creamy NY ricotta / fresh garlic / Genoa salami / Calabria red chili peppers / sweet piquante peppers / fresh basil / fresh arugula / shaved parmigiano Reggiano / evoo / no pizza sauce on this",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "164",
-                        "Food_Item": "SWEETY PIE",
-                        "Description": "signature pizza sauce / fresh pineapple / bacon (Tender Belly - Denver, CO) / house pickled jalapeno / creamy NY ricotta / Sicilian oregano / pecorino Romano cheese",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "165",
-                        "Food_Item": "SOUTHWESTERN BBQ CHICKEN",
-                        "Description": "spicy BBQ sauce / signature pizza sauce / bacon (Tender Belly - Denver, CO) / grilled chicken / caramelized onions / chopped cilantro / corn",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "166",
-                        "Food_Item": "ROCKY MOUNTAIN",
-                        "Description": "signature pizza sauce / pepperoni / hand pinched Italian sausage / mixed bell peppers / red and green onions / Italian green olives / Sicilian oregano / pecorino Romano cheese",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "167",
-                        "Food_Item": "GOLD HILL",
-                        "Description": "mozzarella / gorgonzola / asiago / fig preserves / prosciutto di Parma / balsamic glaze / shaved parmigiano Reggiano / no pizza sauce on this pizza",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "168",
-                        "Food_Item": "PROSPECTOR",
-                        "Description": "5th Place - International Pizza Challenge 2012 (Pan Division): signature pizza sauce / roasted Anaheim green chilies / chopped garlic / fresh mushrooms / hand pinched Italian sausage",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "169",
-                        "Food_Item": "JOHNNY PRIMO",
-                        "Description": "signature pizza sauce (under the cheese) / double pepperoni (cupping & regular) / Sicilian oregano / pecorino Romano cheese",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "170",
-                        "Food_Item": "MOUNTAIN TOP",
-                        "Description": "2nd Place - International Pizza Challenge 2011 (Traditional Division): signature pizza sauce / two styles of pepperoni (cupping & regular) / sautéed white button mushrooms / Sicilian oregano / pecorino Romano cheese",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "171",
-                        "Food_Item": "SAN MARZANO PESTO CHICKEN",
-                        "Description": "homemade basil pesto / signature pizza sauce / feta and mozzarella cheese / housemade grilled chicken / roasted cherry tomatoes / Sicilian oregano / pecorino Romano cheese",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "172",
-                        "Food_Item": "KOTO TELLURIDE",
-                        "Description": "creamy artichoke & spinach sauce / roasted garlic cloves / sun-dried and roasted cherry tomatoes / artichoke hearts / no pizza sauce on this pizza",
-                        "Restaurant_FK": "13"
-                    },
-                    {
-                        "Menu_ID": "173",
-                        "Food_Item": "TOMATO PIE",
-                        "Description": "signature pizza sauce / roasted garlic cloves / parmigiano Reggiano / pecorino Romano cheese / Sicilian oregano / pecorino Romano cheese / evoo",
-                        "Restaurant_FK": "13"
-                    }
-                ]
-            },
-            {
-                "Restaurant_PK": "14",
-                "restaurant": "Chick N Beer",
-                "City": "Oklahoma",
-                "State": "Oklahoma City",
-                "Address": "715 NW 23rd St.",
-                "Zip": "73103",
-                "Ethnic_Type": "American",
-                "TB_Menu": [
-                    {
-                        "Menu_ID": "174",
-                        "Food_Item": "Boneless",
-                        "Description": "All white chicken lightly breaded",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "175",
-                        "Food_Item": "Traditional",
-                        "Description": "Double fried Gluten Free potato flour bone-in wingettes",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "176",
-                        "Food_Item": "DIP DUO WITH WONTON CHIPS",
-                        "Description": "Edamole \"edamame guac\" & kimchi salsa & wonton chips",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "177",
-                        "Food_Item": "KIMCHI FRIES",
-                        "Description": "Crispy natural fries topped w/ melted cheddar, bacon, kimchi, red & green onions, & spicy ranch",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "178",
-                        "Food_Item": "FRIED CAULIFLOWER",
-                        "Description": "Dipped in beer batter",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "179",
-                        "Food_Item": "NACHO AVERAGE CHICK",
-                        "Description": "Wonton chips, cheese, red & green onions, pickled jalapenos, spicy ranch, sour cream w/ chicken",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "180",
-                        "Food_Item": "MOTHER CLUCKING FRIES",
-                        "Description": "Traditional fries, cheese, red & green onions, pickled jalapenos, spicy ranch, sour cream w/ chicken",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "181",
-                        "Food_Item": "FRIED PICKLES",
-                        "Description": "Spicy rub battered fried pickles serve w/ a side of honey mustard",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "182",
-                        "Food_Item": "ROASTED SHISHITO PEPPERS",
-                        "Description": "Fire roasted shishito peppers w/ gochujang sauce",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "183",
-                        "Food_Item": "SALT AND PEPPER FRIES",
-                        "Description": "Natural Cut Fries w/ sauté onions, jalapenos, salt, & pepper",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "184",
-                        "Food_Item": "STEAMED EDAMAME",
-                        "Description": "Steamed soybeans seasoned w/ salt & Old Bay spice",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "185",
-                        "Food_Item": "CRISPY CHICKEN SLIDERS",
-                        "Description": "Fried chicken breast, house cucumber pickle, & spicy herb vinaigrette (original or hot)",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "186",
-                        "Food_Item": "COLD WEDGE SALAD",
-                        "Description": "Chopped romaine, bacon, red onion, tomato, scallion, w/ spicy ranch or ranch",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "187",
-                        "Food_Item": "THAI CRUNCH SALAD",
-                        "Description": "Ginger vinaigrette, lettuce, red onion, cucumber, edamame, scallion,crushed peanuts, mandarin orange, & wonton bits",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "188",
-                        "Food_Item": "SWEET POTATO WAFFLES",
-                        "Description": "Lightly salted sweet potato waffles",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "189",
-                        "Food_Item": "HOUSE PICKLES",
-                        "Description": "cucumber pickle",
-                        "Restaurant_FK": "14"
-                    },
-                    {
-                        "Menu_ID": "190",
-                        "Food_Item": "TRADITIONAL FRIES",
-                        "Description": "Lightly salted traditional fries",
-                        "Restaurant_FK": "14"
-                    }
-                ]
-            },
-            {
-                "RESTAURANT_PK": "15",
-                "Restaurant": "Pounds",
-                "City": "Fargo",
-                "State": "North Dakota",
-                "Address": "1st Ave N. Fargo",
-                "Zip": "58102",
-                "Ethnic_Type": "American",
-                "TB_Menu": [
-                    {
                         "Menu_ID": "191",
-                        "Food_Item": "Loaded Queso Fries",
-                        "Description": "House fries, roasted black beans & corn, chuloa lime sour cream drizzle, cilantro",
-                        "Restaurant_FK": "15"
+                        "food_item": "Loaded Queso Fries",
+                        "description": "House fries, roasted black beans & corn, chuloa lime sour cream drizzle, cilantro",
+                        "Restaurant_FK": "15",
+                        "price": "9.99"
                     },
                     {
                         "Menu_ID": "192",
-                        "Food_Item": "Grilled Cheese Stix",
-                        "Description": "Butter. Bread. Cheese. Served with tomato soup",
-                        "Restaurant_FK": "15"
+                        "food_item": "Grilled Cheese Stix",
+                        "description": "Butter. Bread. Cheese. Served with tomato soup",
+                        "Restaurant_FK": "15",
+                        "price": "9.99"
                     },
                     {
                         "Menu_ID": "193",
-                        "Food_Item": "Poutine",
-                        "Description": "Crispy fries with melted cheese curds, rich brown gravy & house pulled pork",
-                        "Restaurant_FK": "15"
+                        "food_item": "Poutine",
+                        "description": "Crispy fries with melted cheese curds, rich brown gravy & house pulled pork",
+                        "Restaurant_FK": "15",
+                        "price": "10.79"
                     },
                     {
                         "Menu_ID": "194",
-                        "Food_Item": "Wings",
-                        "Description": "Juicy & crispy chicken wings choie of sauce or dry seasoned. Comes with ranch or blue cheese",
-                        "Restaurant_FK": "15"
+                        "food_item": "Wings",
+                        "description": "Juicy & crispy chicken wings choie of sauce or dry seasoned. Comes with ranch or blue cheese",
+                        "Restaurant_FK": "15",
+                        "size": [
+                            {
+                                "Size_ID": "6",
+                                "Menu_ID": "194",
+                                "lil": "5",
+                                "normy": "9",
+                                "biggie": "14"
+                            }
+                        ],
+                        "flavor": [
+                            {
+                                "Flavor_ID": "6",
+                                "Menu_ID": "194",
+                                "Mild": "0",
+                                "Light": "0",
+                                "Medium": "0",
+                                "Garlic_Parmesan": "0",
+                                "Garlic": "0",
+                                "Chili_Lime_Ranch": "0",
+                                "Mild_Pesto-Parmesan": "0",
+                                "Bee_Sting__honey_hot_": "0",
+                                "Hot": "0",
+                                "Chipotle": "0",
+                                "Fire_Ranch": "0",
+                                "XXX_Hot": "0",
+                                "Spicey_Pesto-Parmesan": "0",
+                                "Mo_Hotter": "0",
+                                "Inferno_Ranch": "0",
+                                "Mango_Madness": "0",
+                                "Way_TOO_Hot__habanero_": "0",
+                                "Sweet_and_Sour": "0",
+                                "Honey_Lemon_Pepper": "0",
+                                "Honey_Garlic_Pepper": "0",
+                                "Salt_and_Vinegar": "0",
+                                "Teriyaki": "0",
+                                "Honey_Barbecue": "0",
+                                "Barbecue": "0",
+                                "Honey_Mustard": "1",
+                                "Pad_Thai": "0",
+                                "Asian": "0",
+                                "Spicey_Peanut": "0",
+                                "Hot_Honey_Mustard": "0",
+                                "Raging_Barbecue": "0",
+                                "Cajun_Seasoning": "0",
+                                "Hickory_Hog_Seasoning": "0",
+                                "Garlic_Butter_Seasoning": "0",
+                                "Italian_Parmesan_Seasoning": "0",
+                                "Garlic_Pepper_Seasoning": "0",
+                                "Dry_Ranch_Seasoning": "0",
+                                "Greek_Seasoning": "0",
+                                "Jerk_Seasoning": "0",
+                                "Lemon_Pepper_Seasoning": "1",
+                                "Honey_Lemon_Pepper_Seasoning": "0",
+                                "Honey_Garlic_Pepper_Seasoning": "0",
+                                "Habanero_Jerk_Seasoning": "0",
+                                "BBQ_Honey_Red_Curry": "0",
+                                "Rootbeer_BBQ": "0",
+                                "Bourbon_Teriyaki": "0",
+                                "Salt_and_Pepper": "0",
+                                "Buffalo_Sriracha": "0",
+                                "Sweet_Chili": "0",
+                                "Gochujang": "0",
+                                "Szechuan_Garlic_Parmesan": "0",
+                                "Yellow_Curry": "0",
+                                "Mama_x0027_s_Sweet_and_Salty": "0",
+                                "Peppers_Galore": "0",
+                                "Mango_Thai_Chili": "0",
+                                "Dr_Pepper_BBQ": "1",
+                                "Ranch_Dust_Seasoning": "1",
+                                "Buffalo_Dry_Shake_Seasoning": "1",
+                                "Sweet_Chili_Lime": "1",
+                                "Saucy_Buffalo": "1",
+                                "Torch_Sauce": "1"
+                            }
+                        ]
                     },
                     {
                         "Menu_ID": "195",
-                        "Food_Item": "Da Club Sandwich",
-                        "Description": "Turkey, ham, bacon, cheddar & guada, tomato, lettuce, honey mustard, sour dough",
-                        "Restaurant_FK": "15"
+                        "food_item": "Da Club Sandwich",
+                        "description": "Turkey, ham, bacon, cheddar & guada, tomato, lettuce, honey mustard, sour dough",
+                        "Restaurant_FK": "15",
+                        "price": "12.99"
                     },
                     {
                         "Menu_ID": "196",
-                        "Food_Item": "3D Cheese Loaded mac N' Cheese",
-                        "Description": "Triple the cheese - served with mini grilled cheese",
-                        "Restaurant_FK": "15"
+                        "food_item": "3D Cheese Loaded mac N' Cheese",
+                        "description": "Triple the cheese - served with mini grilled cheese",
+                        "Restaurant_FK": "15",
+                        "price": "10.79"
                     },
                     {
                         "Menu_ID": "197",
-                        "Food_Item": "BBQ Porker Mac",
-                        "Description": "Sweet bbq pulled pork, diced jalapeno",
-                        "Restaurant_FK": "15"
+                        "food_item": "BBQ Porker Mac",
+                        "description": "Sweet bbq pulled pork, diced jalapeno",
+                        "Restaurant_FK": "15",
+                        "price": "11.79"
                     },
                     {
                         "Menu_ID": "198",
-                        "Food_Item": "Chicken Bacon Ranch Mac",
-                        "Description": "Crispy chicken, bacon, ranch drizzle",
-                        "Restaurant_FK": "15"
+                        "food_item": "Chicken Bacon Ranch Mac",
+                        "description": "Crispy chicken, bacon, ranch drizzle",
+                        "Restaurant_FK": "15",
+                        "price": "11.79"
                     },
                     {
                         "Menu_ID": "199",
-                        "Food_Item": "Buff Chick Mac",
-                        "Description": "buffalo sauce, diced chicken, blue cheese",
-                        "Restaurant_FK": "15"
+                        "food_item": "Buff Chick Mac",
+                        "description": "buffalo sauce, diced chicken, blue cheese",
+                        "Restaurant_FK": "15",
+                        "price": "11.79"
                     },
                     {
                         "Menu_ID": "200",
-                        "Food_Item": "Chicken Tendies",
-                        "Description": "Buttermilk soaked house chicken tenders with wavy sauce (ketchup/mayo based)",
-                        "Restaurant_FK": "15"
+                        "food_item": "Chicken Tendies",
+                        "description": "Buttermilk soaked house chicken tenders with wavy sauce (ketchup/mayo based)",
+                        "Restaurant_FK": "15",
+                        "price": "9.79"
                     },
                     {
                         "Menu_ID": "201",
-                        "Food_Item": "Pickle Fries App",
-                        "Description": "Lightly breaded pickle spears served with zesty avocado ranch",
-                        "Restaurant_FK": "15"
+                        "food_item": "Pickle Fries App",
+                        "description": "Lightly breaded pickle spears served with zesty avocado ranch",
+                        "Restaurant_FK": "15",
+                        "price": "7.99"
                     },
                     {
                         "Menu_ID": "202",
-                        "Food_Item": "Gang 'o Fries",
-                        "Description": "House fries with ranch flight (Choice of 4 ranches)",
-                        "Restaurant_FK": "15"
-                    }        
+                        "food_item": "Gang 'o Fries",
+                        "description": "House fries with ranch flight (Choice of 4 ranches)",
+                        "Restaurant_FK": "15",
+                        "price": "9.99"
+                    }
                 ]
-            }        
+            }
         ],
         "_xmlns:od": "urn:schemas-microsoft-com:officedata",
         "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "_xsi:noNamespaceSchemaLocation": "TB_Restaurant.xsd",
-        "_generated": "2020-12-01T11:05:52"
+        "_xsi:noNamespaceSchemaLocation": "Restaurant_TB.xsd",
+        "_generated": "2020-12-08T13:47:08"
     }
 }
