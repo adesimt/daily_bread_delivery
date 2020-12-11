@@ -54,7 +54,7 @@ body{
     line-height: 2.5em;
 }
 
-input[type = "text"]{
+input[type = "text"], input[type = "password"]{
     display: block;
     width: 22vw;
     height: 5vh;
@@ -72,12 +72,13 @@ input[type = "text"]:focus{
     outline: 0.2px solid rgba(248, 250, 252, 100%);
 }
 
-#forget-password{
+a#forget-password{
     font-size: 0.8em;
     color: #090D10;
     float: right;
     padding-right: 10px;
     line-height: 2em;
+    text-decoration: none;
 }
 
 .login-btn, .create-btn{
