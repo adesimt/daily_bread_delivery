@@ -2,12 +2,10 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/signin', (req, res, next) => {
-    res.render('signin', {
+router.get('/login', (req, res, next) => {
+    res.render('login', {
         title: 'Daily Bread Login',
         style: 'account.css'
-    
-    
     
     });
 })

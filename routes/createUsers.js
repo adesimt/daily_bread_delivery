@@ -2,11 +2,13 @@ var express = require('express');
 var router = express.Router();
 const fs =  require('fs');
 const user = require('../model/model');
+const { v4: uuidv4 } = require('uuid');
 
 
 /* GET users listing. */
 router.post('/create', function(req, res, next) {
 
+  user.id = uuidv4();
   user.firstName = req.body.firstName;
   user.lastName = req.body.lastName;
   user.email = req.body.email;
@@ -32,7 +34,7 @@ router.post('/create', function(req, res, next) {
     }
   })
 
-  res.redirect('/signin')
+  res.redirect('/login')
 });
 
 module.exports = router;
