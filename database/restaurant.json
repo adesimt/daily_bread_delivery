@@ -10,6 +10,9 @@
                 "zip": "55116",
                 "phone_number": "651-698-4347",
                 "ethin_type": "American-Irish",
+                "images": [
+                    "http://images/blue"
+                ],
                 "TB_Menu": [
                     {
                         "Menu_ID": "1",
