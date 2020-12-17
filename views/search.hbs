@@ -1,33 +1,31 @@
 
-<ul>
-    <li><a href="">Logout</a></li>
-    <li><a href="">Checkout</a></li>
-    <li><a href="">Search Restaurant</a></li>
-    <li><a href="">About us</a></li>
+<ul id="navigation">
+    <li id="nav"><a href="">Logout</a></li>
+    <li id="nav"><a href="">Checkout</a></li>
+    <li id="nav"><a href="">Search Restaurant</a></li>
+    <li id="nav"><a href="">About us</a></li>
 </ul>
 <div id="container">
     <div id="content">
         <h1>Search for a Restaurant</h1>
-        <ul>
             <!--Dropdown Menu-->
             <label for="cars">Choose a Restaurant:</label>
 
             <select name="restaurants" id="restaurants">
-                <option value="no value"> Select Restaurant</option>
+                <option value="no value">Select Restaurant</option>
                 {{#each restaurantList}}
                     <option value="{{restaurant}}">{{restaurant}}</option>
                 {{/each}}
             </select>
-
+        <ul>
+            {{!-- populate div with menu items --}}
+            {{#each restaurantList}}
+                {{!-- <li>{{restaurant}}</li>
+                <li>{{city}}</li> --}}
+                <li>Menu</li>
+                <li>{{TB_Menu}}</li>
+            {{/each}}
         </ul>
-        <div id="menu_output">
-           <!-- {{#each restaurantList}}
-            {{!-- <li>{{ restaurant}}</li>
-            <li>{{city}}</li> --}}
-            <li>Menu</li>
-            <li>{{TB_Menu.food_item}}</li>
-            {{/each}}-->
-        </div>
     </div>
     <div id="content">
         <h1>Map</h1>
@@ -35,7 +33,7 @@
 </div>
 <footer></footer>
 <script>
-  
+    console.log(JSON.stringify(food_item));
     document.getElementById('restaurants').addEventListener('change', ()=>{
         var selectionOption = document.getElementById('restaurants').value;
         var output = document.getElementById('menu_output');
