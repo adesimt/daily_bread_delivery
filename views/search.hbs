@@ -1,23 +1,80 @@
-
-
-<ul>
-    <!--Dropdown Menu-->
-    <label for="cars">Choose a car:</label>
-
-    <select name="restaurants" id="restaurants">
-        <option value="no value"> Select Restaurant</option>
-        {{#each restaurantList}}
-            
-            <option value="{{restaurant}}">{{restaurant}}</option>
-        {{/each}}
-    </select>
-    {{#each restaurantList}}
-    <li>Restaurant Name:{{ restaurant}}</li>
-    <li>Restaurant City:{{city}}</li>
-    {{/each}}
-</ul>
-
-<script>
-
-
-</script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "../public/stylesheets/styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <h1>Location</h1>
+                <form>
+                    <fieldset>
+                    <select id="dropdown" onchange="initMap(this.value)">
+                        <option value="None">Select a Restaraunt</option>
+                        <option value="44.9266,-93.1566">The Nook</option>
+                        <option value="28.7999,-81.6450">The Frog and Monkey</option>
+                        <option value="41.4323,-81.3935">M Italian</option>
+                        <option value="47.5141,-111.2836">Dante's Creative Cuisine</option>
+                        <option value="38.8369,-104.8243">Azada Mexican Grill</option>
+                        <option value="27.3366,-82.5419">Duval’s. Fresh. Local. Seafood.</option>
+                        <option value="29.7534,-95.4086">La Griglia</option>
+                        <option value="32.7373,-117.2140">Solare Ristorante Lounge</option>
+                        <option value="29.3936,-94.9063">Terraza Mexican Bar & Grill</option>
+                        <option value="41.6258,-87.7106">Gum Wah</option>
+                        <option value="44.9882,-93.2548">Masu</option>
+                        <option value="39.6540,-104.8075">The Wing Hut</option>
+                        <option value="39.7620,-105.0388">Blue Pan</option>
+                        <option value="35.4935,-97.5247">Chick N Beer</option>
+                        <option value="46.8768,-96.7882">Pounds</option>
+                    </select>
+                    </fieldset>
+                </form>
+                <div id="map" style="width: 500px; height: 500px; overflow:hidden;"></div>
+            </div>
+        </div>
+        <script>
+            var map;
+            function initMap(value){
+                var c = value.split(',');
+                
+                var mapCanvas = document.getElementById("map");
+                var mapOptions = {
+                    center: new google.maps.LatLng(parseFloat(c[0]), parseFloat(c[1])),
+                    zoom: 20,
+                    marker: new google.maps.Marker({
+                        position: new google.maps.LatLng(parseFloat(c[0]),parseFloat(c[1])), 
+                        title: "restName", //replace with c[2] after functional, add names to coords in option value="" above (lines 14-28)
+                        map: map
+                    });
+                }
+                map = new google.maps.Map(mapCanvas, mapOptions);
+          
+            }
+            initMap(); //renders map
+            /**var coords = { //Set coords for each location, name case sensitive
+                'The Nook': '44.9266, -93.1566',
+                'The Frog and Monkey': '28.7999, -81.6450',
+                'M Italian': '41.4323, -81.3935',
+                'Dantes Creative Cuisine': '47.5141, -111.2836',
+                'Azada Mexican Grill': '38.8369, -104.8243',
+                'Duval’s. Fresh. Local. Seafood.': '27.3366, -82.5419',
+                'La Griglia': '29.7534, -95.4086',
+                'Solare Ristorante Lounge': '32.7373, -117.2140',
+                'Terraza Mexican Bar & Grill': '29.3936, -94.9063',
+                'Gum Wah': '41.6258, -87.7106',
+                'Masu': '44.9882, -93.2548',
+                'The Wing Hut': '39.6540, -104.8075',
+                'Blue Pan': '39.7620, -105.0388',
+                'Chick N Beer': '35.4935, -97.5247',
+                'Pounds': '46.8768, -96.7882'
+            }**/
+           /** function changeMap(value){
+                var c = coords[value].split(',');
+                //console.log(c);
+                map.setCenter(new google.maps.LatLng(parseFloat(c[0]), parseFloat(c[1])));
+            }**/
+        </script>
+        <script async= "" defer= "" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC0ciJIzSDDU8fw1nvwPcqjYhMDiNdhCc&region=US&callback=initMap"> //Google API key
+        </script> <!--May have to enable billing on API key-->
+    </body>
+</html>
