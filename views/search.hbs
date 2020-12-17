@@ -10,20 +10,22 @@
         <h1>Search for a Restaurant</h1>
             <!--Dropdown Menu-->
             <label for="cars">Choose a Restaurant:</label>
+            <form action="/searchMenu" method="POST">
+                <select name="restaurants" id="restaurants">
+                    <option value="no value" name="restaurantOption">Select Restaurant</option>
+                    {{#each restaurantList}}
+                        <option value="{{restaurant}}">{{restaurant}} - {{state}}</option>
+                    {{/each}}
 
-            <select name="restaurants" id="restaurants">
-                <option value="no value">Select Restaurant</option>
-                {{#each restaurantList}}
-                    <option value="{{restaurant}}">{{restaurant}}</option>
-                {{/each}}
-            </select>
-        <ul>
-            {{!-- populate div with menu items --}}
+                </select>
+            </form>
+        <ul id="output">
+            {{!-- populate this part with menu items --}}
+            <li style="color: white;">Menu</li>
             {{#each restaurantList}}
-                {{!-- <li>{{restaurant}}</li>
-                <li>{{city}}</li> --}}
-                <li>Menu</li>
-                <li>{{TB_Menu}}</li>
+                {{#each this.TB_Menu}} 
+                <li style="color: white;">{{this.food_item}}</li>
+                {{/each}}
             {{/each}}
         </ul>
     </div>
@@ -33,21 +35,25 @@
 </div>
 <footer></footer>
 <script>
-    console.log(JSON.stringify(food_item));
+  Handlebars.registerHelper('getMenu', function(restaurant){
+      
+}
     document.getElementById('restaurants').addEventListener('change', ()=>{
         var selectionOption = document.getElementById('restaurants').value;
-        var output = document.getElementById('menu_output');
-        {{#each restaurantList}}
-            if(selectionOption == {{restaurant}}){
-                for(var x = 0; x < {{restaurant.TB_Menu}}.length; x++){
-                   output.innerHTML = `<form> <input type='checkbox'>${restaurant.TB_Menu[x].food_item} <br /></form>`; 
-                }
-            }
-        {{/each}}
+        var output = document.getElementById('output');
+            {{#each restaurantList}}
+                {{#each this.TB_Menu}} 
+                <li style="color: white;">{{this.food_item}}</li>
+                {{/each}}
+            {{/each}}
+
 
     });
 
+
+
 </script>
+
 
 
 

@@ -6,17 +6,18 @@ var restaurantData = require('../database/restaurant.json');
 
 /* GET search page. */
 router.get('/', function(req, res, next) {
+    let restaurantSelection = req.body.restaurantOption;
 var restaurantArray = [];
 var menuArray = [];
+var foodItemName = [];
 
-    for(var x = 0; x < restaurantData.dataroot.TB_Restaurant.length; x++){
-      restaurantArray.push(restaurantData.dataroot.TB_Restaurant[x]);
-    }
-  //  for(var x = 0; x < menuData.dataroot.TB_Restaurant.TB_Menu.length; x++){
-  //       menuArray.push(menuData.dataroot.TB_Restaurant[x].TB_Menu[x].food_item);
-  //   }
+   restaurantArray.find(restaurant => { if(restaurant.restaurant == restaurantSelection){
+       menuArray.push(restaurant.TB_Menu);
+   }});
+   menuArray.forEach(fooditem => foodItemName.push(fooditem.food_item) );
 
-  res.render('search', { restaurantList : restaurantArray       });
+  res.render('search', { menuList : foodItemName
+                          /**restaurantMenuItems: menuArray**/         });
 });
 
 // Get menu items after selecting restaurant
