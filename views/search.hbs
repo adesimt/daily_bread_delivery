@@ -1,80 +1,104 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel = "stylesheet" type = "text/css" href = "../public/stylesheets/styles.css">
-    </head>
-    <body>
-        <div id="container">
-            <div id="content">
-                <h1>Location</h1>
-                <form>
-                    <fieldset>
-                    <select id="dropdown" onchange="initMap(this.value)">
-                        <option value="None">Select a Restaraunt</option>
-                        <option value="44.9266,-93.1566">The Nook</option>
-                        <option value="28.7999,-81.6450">The Frog and Monkey</option>
-                        <option value="41.4323,-81.3935">M Italian</option>
-                        <option value="47.5141,-111.2836">Dante's Creative Cuisine</option>
-                        <option value="38.8369,-104.8243">Azada Mexican Grill</option>
-                        <option value="27.3366,-82.5419">Duval’s. Fresh. Local. Seafood.</option>
-                        <option value="29.7534,-95.4086">La Griglia</option>
-                        <option value="32.7373,-117.2140">Solare Ristorante Lounge</option>
-                        <option value="29.3936,-94.9063">Terraza Mexican Bar & Grill</option>
-                        <option value="41.6258,-87.7106">Gum Wah</option>
-                        <option value="44.9882,-93.2548">Masu</option>
-                        <option value="39.6540,-104.8075">The Wing Hut</option>
-                        <option value="39.7620,-105.0388">Blue Pan</option>
-                        <option value="35.4935,-97.5247">Chick N Beer</option>
-                        <option value="46.8768,-96.7882">Pounds</option>
-                    </select>
-                    </fieldset>
-                </form>
-                <div id="map" style="width: 500px; height: 500px; overflow:hidden;"></div>
-            </div>
-        </div>
-        <script>
-            var map;
-            function initMap(value){
-                var c = value.split(',');
+<ul id="navigation">
+    <li id="nav"><a href="">Logout</a></li>
+    <li id="nav"><a href="">Checkout</a></li>
+    <li id="nav"><a href="">Search Restaurant</a></li>
+    <li id="nav"><a href="">About us</a></li>
+</ul>
+<div id="container">
+    <div id="content">
+        <h1>Search for a Restaurant</h1>
+            <!--Dropdown Menu-->
+            <label for="cars">Choose a Restaurant:</label>
+
+            <select name="restaurants" id="restaurants" >
+                <option value="no value">Select Restaurant</option>
+                {{#each restaurantList}}
+                    <option value="{{latlong}}">{{restaurant}}</option>
+                {{/each}}
+            </select>
+        
+            <form id="menuitems">
+        
+            {{!-- {{#each restaurantList}}
+                {{#each TB_Menu}}
+                    <input type="checkbox" /> {{this}}[{{this.Menu_ID}}].{{food_item}}<br>
+                {{/each}}
+            {{/each}}  --}}
+           {{!-- {{#each restaurantList.1.TB_Menu }}
+        
+                    <input id="menuitems" type="checkbox" /> {{food_item}}<br>
+              
+            {{/each}}  --}}
+            </form>
+    </div>
+    <div id="map" style="width: 500px; height: 500px;">
+
+    </div>
+</div>
+<footer></footer>
+<script>
+    
+  document.getElementById('restaurants').addEventListener('change',()=>{
+      var optionIndex = document.getElementById('restaurants');
+      var inputItem = document.getElementById('menuitems');
+      
+     
+      if(optionIndex.selectedIndex == "1"){
+            inputItem.innerHTML = "  {{#each restaurantList.0.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+            initMap(optionIndex.value, optionIndex.innerHTML);
+      }else if(optionIndex.selectedIndex =="2"){
+          inputItem.innerHTML = "  {{#each restaurantList.1.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+          initMap(optionIndex.value, optionIndex.innerHTML);
+      }else if(optionIndex.selectedIndex=="3"){
+           inputItem.innerHTML = "  {{#each restaurantList.2.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="4"){
+           inputItem.innerHTML = "  {{#each restaurantList.3.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="5"){
+           inputItem.innerHTML = "  {{#each restaurantList.4.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="6"){
+           inputItem.innerHTML = "  {{#each restaurantList.5.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="7"){
+           inputItem.innerHTML = "  {{#each restaurantList.6.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="8"){
+           inputItem.innerHTML = "  {{#each restaurantList.7.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="9"){
+           inputItem.innerHTML = "  {{#each restaurantList.8.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="10"){
+           inputItem.innerHTML = "  {{#each restaurantList.9.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="11"){
+           inputItem.innerHTML = "  {{#each restaurantList.10.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="12"){
+           inputItem.innerHTML = "  {{#each restaurantList.11.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="13"){
+           inputItem.innerHTML = "  {{#each restaurantList.12.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="14"){
+           inputItem.innerHTML = "  {{#each restaurantList.13.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else if(optionIndex.selectedIndex=="15"){
+           inputItem.innerHTML = "  {{#each restaurantList.14.TB_Menu}}<input id='menuitems' type='checkbox' /> {{food_item }}<br>{{/each}} "
+      }else{
+          inputItem.innerHTML = "";
+      }
+  })
+            /**Implementing Google Map **/
+            function initMap(data, name) {
+                var coords = data.split(",");
+                var myLatLng = {lat: parseFloat(coords[0]), lng: parseFloat(coords[1]) };
+                //var myLatLng = {lat: 44.9728942, lng: -93.2926084};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: myLatLng
+                });
+             
                 
-                var mapCanvas = document.getElementById("map");
-                var mapOptions = {
-                    center: new google.maps.LatLng(parseFloat(c[0]), parseFloat(c[1])),
-                    zoom: 20,
-                    marker: new google.maps.Marker({
-                        position: new google.maps.LatLng(parseFloat(c[0]),parseFloat(c[1])), 
-                        title: "restName", //replace with c[2] after functional, add names to coords in option value="" above (lines 14-28)
-                        map: map
-                    });
-                }
-                map = new google.maps.Map(mapCanvas, mapOptions);
-          
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: name
+                });
+                
             }
-            initMap(); //renders map
-            /**var coords = { //Set coords for each location, name case sensitive
-                'The Nook': '44.9266, -93.1566',
-                'The Frog and Monkey': '28.7999, -81.6450',
-                'M Italian': '41.4323, -81.3935',
-                'Dantes Creative Cuisine': '47.5141, -111.2836',
-                'Azada Mexican Grill': '38.8369, -104.8243',
-                'Duval’s. Fresh. Local. Seafood.': '27.3366, -82.5419',
-                'La Griglia': '29.7534, -95.4086',
-                'Solare Ristorante Lounge': '32.7373, -117.2140',
-                'Terraza Mexican Bar & Grill': '29.3936, -94.9063',
-                'Gum Wah': '41.6258, -87.7106',
-                'Masu': '44.9882, -93.2548',
-                'The Wing Hut': '39.6540, -104.8075',
-                'Blue Pan': '39.7620, -105.0388',
-                'Chick N Beer': '35.4935, -97.5247',
-                'Pounds': '46.8768, -96.7882'
-            }**/
-           /** function changeMap(value){
-                var c = coords[value].split(',');
-                //console.log(c);
-                map.setCenter(new google.maps.LatLng(parseFloat(c[0]), parseFloat(c[1])));
-            }**/
-        </script>
-        <script async= "" defer= "" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC0ciJIzSDDU8fw1nvwPcqjYhMDiNdhCc&region=US&callback=initMap"> //Google API key
-        </script> <!--May have to enable billing on API key-->
-    </body>
-</html>
+            
+        
+   
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC0ciJIzSDDU8fw1nvwPcqjYhMDiNdhCc&region=US&callback=initMap"></script>
